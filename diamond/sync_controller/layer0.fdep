@@ -1,0 +1,55 @@
+%%% protect protected_file
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|sync_controller_top|-layerid|0|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\bin64\\c_vhdl.exe":1352744672
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\location.map":1352755998
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\std.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\std1164.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\numeric.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\arith.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1352744958
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\clock_divider.vhd":1374481334
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\triggered_counter.vhd":1375167382
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\sync_controller_wb_wrapper.vhd":1375214230
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\sync_controller_top.vhd":1375211679
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\cpld\\lattice.vhd":1352744786
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1347650694
+0 "C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\clock_divider.vhd" vhdl
+1 "C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\triggered_counter.vhd" vhdl
+2 "C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd" vhdl
+3 "C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 1 
+3 0 2 
+
+# Dependency Lists (Users Of)
+0 3 
+1 2 
+2 3 
+3 -1
+
+# Design Unit to File Association
+arch work clock_divider behavioral 0
+module work clock_divider 0
+arch work sio sio_arch 1
+module work sio 1
+arch work sync_controller_wb_wrapper behavioral 2
+module work sync_controller_wb_wrapper 2
+arch work sync_controller_top behavioral 3
+module work sync_controller_top 3
+
+# Unbound Instances to File Association
+inst work sync_controller_top sync_controller 3
+inst work sync_controller_top osch 3
+
+
+# Configuration files used
+0 -1
+1 -1
+2 -1
+3 -1

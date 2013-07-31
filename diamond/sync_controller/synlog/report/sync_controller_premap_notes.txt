@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MF122 |Added probe ff_clr_i on ff_clr_i in sync_controller_wb_wrapper 
+@N: MF124 |Total 1 probes and 0 pads inserted. 

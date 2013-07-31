@@ -1,0 +1,360 @@
+#OPTIONS:"|-mixedhdl|-modhint|_verilog_hintfile|-top|work.sync_controller|-layerid|1|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-I|C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond|-I|C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\|-I|C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\bin64\\c_ver.exe":1352744672
+#CUR:"_verilog_hintfile":1375250361
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\machxo2.v":1347650694
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\pmi_def.v":1352744792
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\umr_capim.v":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\hypermods.v":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\cae_library\\synthesis\\verilog\\machxo2.v":1347654294
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\sync_controller.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_include_all.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\pmi_def.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_include.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_interrupt.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_io_cntl.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_flow_cntl.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_idec.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_alu.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_core.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_top.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/gpio/rtl/verilog/gpio.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/gpio/rtl/verilog/tpio.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog/uart_core.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\intface.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\txcver_fifo.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\rxcver.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\rxcver_fifo.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\txmitt.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/slave_passthru/rtl/verilog/slave_passthru.v":1375070121
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/slave_passthru/rtl/verilog/passthru.v":1375070121
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"C:\lscc\diamond\2.1_x64\cae_library\synthesis\verilog\machxo2.v" verilog
+1			"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v" verilog
+2		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+3		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_include_all.v" verilog
+4		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v" verilog
+5		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+6		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_include.v" verilog
+7		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v" verilog
+8		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+9		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_io_cntl.v" verilog
+10		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v" verilog
+11		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_idec.v" verilog
+12		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_alu.v" verilog
+13		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v" verilog
+14		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v" verilog
+15		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v" verilog
+16		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+17		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v" verilog
+18		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+19		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\uart_core.v" verilog
+20		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+21		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v" verilog
+22		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+23		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txcver_fifo.v" verilog
+24		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+25		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v" verilog
+26		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+27		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver_fifo.v" verilog
+28		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+29		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v" verilog
+30		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+31		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v" verilog
+32		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+33		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\passthru.v" verilog
+34		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+2 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+3 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+4 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+5 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+6 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+7 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+8 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+9 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+10 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+11 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+12 1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+13 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+19 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+20 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+21 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 23 24 25 26 27 28 29 30 31 32 33 34
+22 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 31 32 33 34
+23 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 25 26 27 28 29 30 31 32 33 34
+24 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34
+25 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28 29 30 31 32 33 34
+26 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 27 28 29 30 31 32 33 34
+27 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 28 29 30 31 32 33 34
+28 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 29 30 31 32 33 34
+29 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 30 31 32 33 34
+30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 31 32 33 34
+31 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 32 33 34
+32 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 33 34
+33 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 34
+34 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+#Dependency Lists(Users Of)
+0 -1
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+2 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+3 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+4 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+5 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+6 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+7 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+8 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+9 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+10 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+11 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+12 1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+13 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+19 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+20 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 21 22 23 24 25 26 27 28 29 30 31 32 33 34
+21 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 23 24 25 26 27 28 29 30 31 32 33 34
+22 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 31 32 33 34
+23 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 25 26 27 28 29 30 31 32 33 34
+24 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34
+25 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28 29 30 31 32 33 34
+26 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 27 28 29 30 31 32 33 34
+27 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 28 29 30 31 32 33 34
+28 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 29 30 31 32 33 34
+29 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 30 31 32 33 34
+30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 31 32 33 34
+31 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 32 33 34
+32 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 33 34
+33 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 34
+34 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+#Design Unit to File Association
+module work AGEB2 0
+module work ALEB2 0
+module work AND2 0
+module work AND3 0
+module work AND4 0
+module work AND5 0
+module work ANEB2 0
+module work BB 0
+module work BBPD 0
+module work BBPU 0
+module work BBW 0
+module work CB2 0
+module work CD2 0
+module work CU2 0
+module work FADD2B 0
+module work FADSU2 0
+module work FD1P3AX 0
+module work FD1P3AY 0
+module work FD1P3BX 0
+module work FD1P3DX 0
+module work FD1P3IX 0
+module work FD1P3JX 0
+module work FD1S1A 0
+module work FD1S1AY 0
+module work FD1S1B 0
+module work FD1S1D 0
+module work FD1S1I 0
+module work FD1S1J 0
+module work FD1S3AX 0
+module work FD1S3AY 0
+module work FD1S3BX 0
+module work FD1S3DX 0
+module work FD1S3IX 0
+module work FD1S3JX 0
+module work FL1P3AY 0
+module work FL1P3AZ 0
+module work FL1P3BX 0
+module work FL1P3DX 0
+module work FL1P3IY 0
+module work FL1P3JY 0
+module work FL1S1A 0
+module work FL1S1AY 0
+module work FL1S1B 0
+module work FL1S1D 0
+module work FL1S1I 0
+module work FL1S1J 0
+module work FL1S3AX 0
+module work FL1S3AY 0
+module work FSUB2B 0
+module work GSR 0
+module work IB 0
+module work IBPD 0
+module work IBPU 0
+module work IFS1P3BX 0
+module work IFS1P3DX 0
+module work IFS1P3IX 0
+module work IFS1P3JX 0
+module work ILVDS 0
+module work INV 0
+module work L6MUX21 0
+module work LB2P3AX 0
+module work LB2P3AY 0
+module work LB2P3BX 0
+module work LB2P3DX 0
+module work LB2P3IX 0
+module work LB2P3JX 0
+module work LD2P3AX 0
+module work LD2P3AY 0
+module work LD2P3BX 0
+module work LD2P3DX 0
+module work LD2P3IX 0
+module work LD2P3JX 0
+module work LU2P3AX 0
+module work LU2P3AY 0
+module work LU2P3BX 0
+module work LU2P3DX 0
+module work LU2P3IX 0
+module work LU2P3JX 0
+module work MULT2 0
+module work MUX161 0
+module work MUX21 0
+module work MUX321 0
+module work MUX41 0
+module work MUX81 0
+module work ND2 0
+module work ND3 0
+module work ND4 0
+module work ND5 0
+module work NR2 0
+module work NR3 0
+module work NR4 0
+module work NR5 0
+module work OB 0
+module work OBCO 0
+module work OBZ 0
+module work OBZPU 0
+module work OFS1P3BX 0
+module work OFS1P3DX 0
+module work OFS1P3IX 0
+module work OFS1P3JX 0
+module work OLVDS 0
+module work OR2 0
+module work OR3 0
+module work OR4 0
+module work OR5 0
+module work LUT4 0
+module work LUT5 0
+module work LUT6 0
+module work LUT7 0
+module work LUT8 0
+module work PFUMX 0
+module work PUR 0
+module work ROM128X1A 0
+module work ROM16X1A 0
+module work ROM256X1A 0
+module work ROM32X1A 0
+module work ROM64X1A 0
+module work CCU2D 0
+module work VHI 0
+module work VLO 0
+module work XNOR2 0
+module work XNOR3 0
+module work XNOR4 0
+module work XNOR5 0
+module work XOR11 0
+module work XOR2 0
+module work XOR21 0
+module work XOR3 0
+module work XOR4 0
+module work XOR5 0
+module work IFS1S1B 0
+module work IFS1S1D 0
+module work IFS1S1I 0
+module work IFS1S1J 0
+module work DPR16X4C 0
+module work SPR16X4C 0
+module work SGSR 0
+module work DP8KC 0
+module work PDPW8KC 0
+module work SP8KC 0
+module work FIFO8KB 0
+module work CLKDIVC 0
+module work DCMA 0
+module work ECLKSYNCA 0
+module work ECLKBRIDGECS 0
+module work DCCA 0
+module work JTAGF 0
+module work START 0
+module work SEDFA 0
+module work SEDFB 0
+module work IDDRXE 0
+module work IDDRX2E 0
+module work IDDRX4B 0
+module work IDDRDQSX1A 0
+module work IDDRX71A 0
+module work ODDRXE 0
+module work ODDRX2E 0
+module work ODDRX4B 0
+module work ODDRDQSX1A 0
+module work ODDRX71A 0
+module work TDDRA 0
+module work DQSBUFH 0
+module work DQSDLLC 0
+module work DELAYE 0
+module work DELAYD 0
+module work DLLDELC 0
+module work CLKFBBUFA 0
+module work PCNTR 0
+module work BCINRD 0
+module work BCLVDSO 0
+module work INRDB 0
+module work LVDSOB 0
+module work PG 0
+module work EHXPLLJ 0
+module work PLLREFCS 0
+module work OSCH 0
+module work EFB 0
+module work TSALL 0
+module work arbiter2 1
+module work pmi_distributed_dpram 4
+module work pmi_distributed_spram 4
+module work pmi_addsub 4
+module work pmi_ram_dp 4
+module work pmi_ram_dq 4
+module work pmi_rom 4
+module work pmi_fifo_dc 4
+module work pmi_fifo 4
+module work lm8_interrupt 7
+module work lm8_io_cntl 9
+module work lm8_flow_cntl 10
+module work lm8_idec 11
+module work lm8_alu 12
+module work lm8_core 13
+module work lm8 14
+module work TRI_PIO 17
+module work gpio 15
+module work txcver_fifo 23
+module work intface 21
+module work rxcver_fifo 27
+module work rxcver 25
+module work txmitt 29
+module work uart_core 19
+module work passthru 33
+module work slave_passthru 31
+module work sync_controller 1
+#Unbound instances to file Association.

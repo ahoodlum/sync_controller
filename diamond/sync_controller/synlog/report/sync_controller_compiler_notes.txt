@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\2.1_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":6:7:6:32|Top entity is set to sync_controller_wb_wrapper.
+@N: CD630 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":6:7:6:32|Synthesizing work.sync_controller_wb_wrapper.behavioral 
+@N: CD364 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":76:5:76:5|Removed redundant assignment
+@N: CD630 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":5:7:5:22|Synthesizing work.one_shot_counter.behavioral 
+@N: CD233 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":17:16:17:17|Using sequential encoding for type state_type
+@N: CD630 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\async_ff.vhd":4:7:4:19|Synthesizing work.dff_async_rst.behavioral 
+

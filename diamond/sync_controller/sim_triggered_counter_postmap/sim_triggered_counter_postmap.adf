@@ -1,0 +1,59 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+sim_triggered_counter_postmap=.\sim_triggered_counter_postmap\sim_triggered_counter_postmap.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work;
+LibNames=ovi_machxo2;
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+sim_triggered_counter_postmap=.
+work=.
+[LocalVerilogDirs]
+Count=3
+IncludeDir0=..\
+IncludeDir1=..\soc
+IncludeDir2=..\..\sw\uart_test
+[DefineMacro]
+Global=
+[Files]
+/..\..\sync_controller_sync_controller_mapvho.vho=-1
+/..\..\..\..\..\..\..\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sio_TB.vhd=-1
+/..\..\sync_controller_sync_controller_mapvho.sdf=-1
+[Files.Data]
+.\..\sync_controller_sync_controller_mapvho.vho=VHDL Source Code
+.\..\..\..\..\..\..\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sio_TB.vhd=VHDL Source Code
+.\..\sync_controller_sync_controller_mapvho.sdf=SDF File
+[sdf.ea.sio_tb-TB_ARCHITECTURE]
+0=..\sync_controller_sync_controller_mapvho.sdf| /sio_tb/UUT, Average, No
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=sio_tb|TB_ARCHITECTURE|0   
+ShowHide=ShowTopLevel
+Selected=
+[sdf.ea.sio-Structure]
+0=..\sync_controller_sync_controller_mapvho.sdf| /sio, Average, No
+[sdf.vmm.sio Structure sio_tb TB_ARCHITECTURE]
+0=..\sync_controller_sync_controller_mapvho.sdf| /sio, Average, No
+1=..\sync_controller_sync_controller_mapvho.sdf| /sio_tb/UUT, Average, No

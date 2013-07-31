@@ -1,0 +1,47 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\2.1_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_top.vhd":11:7:11:25|Top entity is set to sync_controller_top.
+@N|Running in 64-bit mode
+@N: CG334 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":952:16:952:28|Read directive translate_off 
+@N: CG333 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":1016:16:1016:27|Read directive translate_on 
+@N: CD720 :"C:\lscc\diamond\2.1_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_top.vhd":11:7:11:25|Top entity is set to sync_controller_top.
+@N: CD630 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_top.vhd":11:7:11:25|Synthesizing work.sync_controller_top.behavioral 
+@N: CD630 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":6:7:6:32|Synthesizing work.sync_controller_wb_wrapper.behavioral 
+@N: CD364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":85:5:85:5|Removed redundant assignment
+@N: CD630 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\triggered_counter.vhd":7:7:7:9|Synthesizing work.sio.sio_arch 
+@N: CD630 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\clock_divider.vhd":9:7:9:19|Synthesizing work.clock_divider.behavioral 
+@N: CG334 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":952:16:952:28|Read directive translate_off 
+@N: CG333 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":1016:16:1016:27|Read directive translate_on 
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":48:7:48:14|Synthesizing module arbiter2
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_idec.v":47:7:47:14|Synthesizing module lm8_idec
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":69:7:69:16|Synthesizing module pmi_addsub
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_alu.v":47:7:47:13|Synthesizing module lm8_alu
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":48:7:48:27|Synthesizing module pmi_distributed_spram
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":49:7:49:19|Synthesizing module lm8_flow_cntl
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_io_cntl.v":47:8:47:18|Synthesizing module lm8_io_cntl
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":49:7:49:19|Synthesizing module lm8_interrupt
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v":47:7:47:14|Synthesizing module lm8_core
+@N: CG179 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v":350:28:350:36|Removing redundant assignment
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":24:7:24:27|Synthesizing module pmi_distributed_dpram
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":50:7:50:9|Synthesizing module lm8
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":115:7:115:16|Synthesizing module pmi_ram_dq
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":115:7:115:16|Synthesizing module pmi_ram_dq
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":77:7:77:10|Synthesizing module gpio
+@N: CG364 :"C:\lscc\diamond\2.1_x64\cae_library\synthesis\verilog\machxo2.v":82:7:82:8|Synthesizing module BB
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":63:7:63:13|Synthesizing module TRI_PIO
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":319:7:319:13|Synthesizing module intface
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":94:7:94:12|Synthesizing module rxcver
+@N: CL177 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":472:3:472:8|Sharing sequential element sin_d0_delay.
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":103:7:103:12|Synthesizing module txmitt
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\uart_core.v":128:7:128:15|Synthesizing module uart_core
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\passthru.v":52:7:52:14|Synthesizing module passthru
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":52:7:52:20|Synthesizing module slave_passthru
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":335:7:335:21|Synthesizing module sync_controller
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":333:3:333:8|Trying to extract state machine for register genblk2.genblk1.tx_state
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":315:3:315:8|Trying to extract state machine for register cs_state
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":873:2:873:7|Trying to extract state machine for register genblk22.cs_state
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":246:0:246:5|Trying to extract state machine for register selected
+@N|Running in 64-bit mode
+

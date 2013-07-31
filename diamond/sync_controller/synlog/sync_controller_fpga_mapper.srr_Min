@@ -1,0 +1,276 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Jul 29 21:39:21 2013
+#
+
+
+Top view:               sync_controller_wb_wrapper
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.860
+
+                                           Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                             Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------------------------------
+sync_controller_wb_wrapper|CLK_I           1.0 MHz       NA            1000.000      NA            NA         inferred     Autoconstr_clkgroup_0
+sync_controller_wb_wrapper|clk_counter     186.7 MHz     158.7 MHz     5.355         6.300         -0.945     inferred     Autoconstr_clkgroup_1
+sync_controller_wb_wrapper|sync_in         353.6 MHz     300.6 MHz     2.828         3.327         -0.499     inferred     Autoconstr_clkgroup_2
+System                                     1.0 MHz       1.0 MHz       1000.000      998.775       1.225      system       system_clkgroup      
+================================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                  sync_controller_wb_wrapper|clk_counter  |  0.000       1.225  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                  sync_controller_wb_wrapper|sync_in      |  0.000       2.131  |  No paths    -      |  No paths    -      |  No paths    -    
+sync_controller_wb_wrapper|clk_counter  sync_controller_wb_wrapper|clk_counter  |  0.000       0.860  |  No paths    -      |  No paths    -      |  No paths    -    
+sync_controller_wb_wrapper|clk_counter  sync_controller_wb_wrapper|sync_in      |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+sync_controller_wb_wrapper|sync_in      sync_controller_wb_wrapper|clk_counter  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+sync_controller_wb_wrapper|sync_in      sync_controller_wb_wrapper|sync_in      |  0.000       2.131  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sync_controller_wb_wrapper|clk_counter
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                       Arrival          
+Instance                 Reference                                  Type        Pin     Net             Time        Slack
+                         Clock                                                                                           
+-------------------------------------------------------------------------------------------------------------------------
+counter1.state[1]        sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       state[1]        0.933       0.860
+counter1.state[0]        sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       state[0]        0.932       1.426
+counter1.counter[0]      sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[0]      0.775       2.116
+counter1.counter[1]      sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[1]      0.775       2.116
+counter1.counter[12]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[12]     0.775       2.116
+counter1.counter[13]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[13]     0.775       2.116
+counter1.counter[14]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[14]     0.775       2.116
+counter1.counter[15]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[15]     0.775       2.116
+counter1.counter[16]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[16]     0.775       2.116
+counter1.counter[17]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     Q       counter[17]     0.775       2.116
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                                         Required          
+Instance                Reference                                  Type        Pin     Net               Time         Slack
+                        Clock                                                                                              
+---------------------------------------------------------------------------------------------------------------------------
+counter1.rst_out        sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       state[1]          0.074        0.860
+counter1.counter[0]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[0]     -0.062       1.426
+counter1.counter[1]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[1]     -0.062       1.426
+counter1.counter[2]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[2]     -0.062       1.426
+counter1.counter[3]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[3]     -0.062       1.426
+counter1.counter[4]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[4]     -0.062       1.426
+counter1.counter[5]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[5]     -0.062       1.426
+counter1.counter[6]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[6]     -0.062       1.426
+counter1.counter[7]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[7]     -0.062       1.426
+counter1.counter[8]     sync_controller_wb_wrapper|clk_counter     FD1S3AX     D       counter_lm[8]     -0.062       1.426
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.933
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.860
+
+    Number of logic level(s):                0
+    Starting point:                          counter1.state[1] / Q
+    Ending point:                            counter1.rst_out / D
+    The start point is clocked by            sync_controller_wb_wrapper|clk_counter [rising] on pin CK
+    The end   point is clocked by            sync_controller_wb_wrapper|clk_counter [rising] on pin CK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+counter1.state[1]     FD1S3AX     Q        Out     0.933     0.933       -         
+state[1]              Net         -        -       -         -           38        
+counter1.rst_out      FD1S3AX     D        In      0.000     0.933       -         
+===================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: sync_controller_wb_wrapper|sync_in
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                                            Arrival          
+Instance                        Reference                              Type        Pin     Net      Time        Slack
+                                Clock                                                                                
+---------------------------------------------------------------------------------------------------------------------
+counter1.next_state_0_.II_0     sync_controller_wb_wrapper|sync_in     FD1S3DX     Q       o1_0     0.731       2.131
+counter1.next_state_0_.II_1     sync_controller_wb_wrapper|sync_in     FD1S3BX     Q       o2_0     0.731       2.131
+counter1.next_state_1_.II_0     sync_controller_wb_wrapper|sync_in     FD1S3DX     Q       o1       0.731       2.131
+counter1.next_state_1_.II_1     sync_controller_wb_wrapper|sync_in     FD1S3BX     Q       o2       0.731       2.131
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                                          Required          
+Instance                        Reference                              Type        Pin     Net                    Time         Slack
+                                Clock                                                                                               
+------------------------------------------------------------------------------------------------------------------------------------
+counter1.next_state_0_.II_0     sync_controller_wb_wrapper|sync_in     FD1S3DX     D       un1_next_state_3_i     0.074        2.131
+counter1.next_state_0_.II_1     sync_controller_wb_wrapper|sync_in     FD1S3BX     D       un1_next_state_3_i     0.074        2.131
+counter1.next_state_1_.II_0     sync_controller_wb_wrapper|sync_in     FD1S3DX     D       fb                     0.074        2.131
+counter1.next_state_1_.II_1     sync_controller_wb_wrapper|sync_in     FD1S3BX     D       fb                     0.074        2.131
+====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        2.205
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 2.131
+
+    Number of logic level(s):                2
+    Starting point:                          counter1.next_state_0_.II_0 / Q
+    Ending point:                            counter1.next_state_0_.II_0 / D
+    The start point is clocked by            sync_controller_wb_wrapper|sync_in [rising] on pin CK
+    The end   point is clocked by            sync_controller_wb_wrapper|sync_in [rising] on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+counter1.next_state_0_.II_0                 FD1S3DX      Q        Out     0.731     0.731       -         
+o1_0                                        Net          -        -       -         -           2         
+counter1.next_state_0_.res_lat_RNIR5C81     ORCALUT4     A        In      0.000     0.731       -         
+counter1.next_state_0_.res_lat_RNIR5C81     ORCALUT4     Z        Out     0.712     1.442       -         
+next_state[0]                               Net          -        -       -         -           1         
+counter1.state_RNICTED1[0]                  ORCALUT4     A        In      0.000     1.442       -         
+counter1.state_RNICTED1[0]                  ORCALUT4     Z        Out     0.762     2.205       -         
+un1_next_state_3_i                          Net          -        -       -         -           2         
+counter1.next_state_0_.II_0                 FD1S3DX      D        In      0.000     2.205       -         
+==========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                  Arrival          
+Instance                           Reference     Type       Pin     Net      Time        Slack
+                                   Clock                                                      
+----------------------------------------------------------------------------------------------
+counter1.next_state_0_.res_lat     System        FD1S1D     Q       o3_0     0.731       1.225
+counter1.next_state_1_.res_lat     System        FD1S1D     Q       o3       0.731       1.419
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                 Required          
+Instance                        Reference     Type        Pin     Net                    Time         Slack
+                                Clock                                                                      
+-----------------------------------------------------------------------------------------------------------
+counter1.state[0]               System        FD1S3AX     D       next_state_i[0]        -0.062       1.225
+counter1.state[1]               System        FD1S3AX     D       next_state[1]          0.074        1.419
+counter1.next_state_0_.II_0     System        FD1S3DX     D       un1_next_state_3_i     0.074        2.131
+counter1.next_state_0_.II_1     System        FD1S3BX     D       un1_next_state_3_i     0.074        2.131
+counter1.next_state_1_.II_0     System        FD1S3DX     D       fb                     0.074        2.131
+counter1.next_state_1_.II_1     System        FD1S3BX     D       fb                     0.074        2.131
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.163
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             -0.062
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 1.225
+
+    Number of logic level(s):                1
+    Starting point:                          counter1.next_state_0_.res_lat / Q
+    Ending point:                            counter1.state[0] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            sync_controller_wb_wrapper|clk_counter [rising] on pin CK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+counter1.next_state_0_.res_lat                FD1S1D       Q        Out     0.731     0.731       -         
+o3_0                                          Net          -        -       -         -           2         
+counter1.next_state_0_.res_lat_RNIR5C81_0     ORCALUT4     A        In      0.000     0.731       -         
+counter1.next_state_0_.res_lat_RNIR5C81_0     ORCALUT4     Z        Out     0.432     1.163       -         
+next_state_i[0]                               Net          -        -       -         -           1         
+counter1.state[0]                             FD1S3AX      D        In      0.000     1.163       -         
+============================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

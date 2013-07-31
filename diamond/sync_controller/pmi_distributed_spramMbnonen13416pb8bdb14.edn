@@ -1,0 +1,310 @@
+(edif pmi_distributed_spramMbnonen13416pb8bdb14
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2013 7 30 22 59 34)
+      (program "SCUBA" (version "Diamond_2.1_Production (100)"))))
+      (comment "C:/lscc/diamond/2.1_x64/ispfpga/bin/nt64/scuba -w -bus_exp 7 -bb -arch xo2c00 -type sspram -num_rows 16 -data_width 13 -memformat bin -n pmi_distributed_spramMbnonen13416pb8bdb14 -pmi ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell ROM16X1A
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port AD3
+            (direction INPUT))
+          (port AD2
+            (direction INPUT))
+          (port AD1
+            (direction INPUT))
+          (port AD0
+            (direction INPUT))
+          (port DO0
+            (direction OUTPUT)))))
+    (cell SPR16X4C
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port DI0
+            (direction INPUT))
+          (port DI1
+            (direction INPUT))
+          (port DI2
+            (direction INPUT))
+          (port DI3
+            (direction INPUT))
+          (port CK
+            (direction INPUT))
+          (port WRE
+            (direction INPUT))
+          (port AD0
+            (direction INPUT))
+          (port AD1
+            (direction INPUT))
+          (port AD2
+            (direction INPUT))
+          (port AD3
+            (direction INPUT))
+          (port DO0
+            (direction OUTPUT))
+          (port DO1
+            (direction OUTPUT))
+          (port DO2
+            (direction OUTPUT))
+          (port DO3
+            (direction OUTPUT)))))
+    (cell VHI
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell pmi_distributed_spramMbnonen13416pb8bdb14
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port (array (rename Address "Address(3:0)") 4)
+            (direction INPUT))
+          (port (array (rename Data "Data(12:0)") 13)
+            (direction INPUT))
+          (port Clock
+            (direction INPUT))
+          (port WE
+            (direction INPUT))
+          (port ClockEn
+            (direction INPUT))
+          (port Reset
+            (direction INPUT))
+          (port (array (rename Q "Q(12:0)") 13)
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance LUT4_0
+            (viewRef view1 
+              (cellRef ROM16X1A))
+            (property initval
+              (string "0x8000")))
+          (instance scuba_vhi_inst
+            (viewRef view1 
+              (cellRef VHI)))
+          (instance mem_0_0
+            (viewRef view1 
+              (cellRef SPR16X4C))
+            (property MEM_INIT_FILE
+              (string "(0-15)(0-3)"))
+            (property MEM_LPC_FILE
+              (string "pmi_distributed_spramMbnonen13416pb8bdb14__PMI__16__13__13B"))
+            (property COMP
+              (string "mem_0_0"))
+            (property initval
+              (string "0x0000000000000000")))
+          (instance mem_0_1
+            (viewRef view1 
+              (cellRef SPR16X4C))
+            (property MEM_INIT_FILE
+              (string "(0-15)(4-7)"))
+            (property MEM_LPC_FILE
+              (string "pmi_distributed_spramMbnonen13416pb8bdb14__PMI__16__13__13B"))
+            (property COMP
+              (string "mem_0_1"))
+            (property initval
+              (string "0x0000000000000000")))
+          (instance mem_0_2
+            (viewRef view1 
+              (cellRef SPR16X4C))
+            (property MEM_INIT_FILE
+              (string "(0-15)(8-11)"))
+            (property MEM_LPC_FILE
+              (string "pmi_distributed_spramMbnonen13416pb8bdb14__PMI__16__13__13B"))
+            (property COMP
+              (string "mem_0_2"))
+            (property initval
+              (string "0x0000000000000000")))
+          (instance mem_0_3
+            (viewRef view1 
+              (cellRef SPR16X4C))
+            (property MEM_INIT_FILE
+              (string "(0-15)(12-12)"))
+            (property MEM_LPC_FILE
+              (string "pmi_distributed_spramMbnonen13416pb8bdb14__PMI__16__13__13B"))
+            (property COMP
+              (string "mem_0_3"))
+            (property initval
+              (string "0x0000000000000000")))
+          (net scuba_vhi
+            (joined
+              (portRef Z (instanceRef scuba_vhi_inst))
+              (portRef AD0 (instanceRef LUT4_0))
+              (portRef AD1 (instanceRef LUT4_0))
+              (portRef DI3 (instanceRef mem_0_0))
+              (portRef DI2 (instanceRef mem_0_0))
+              (portRef DI1 (instanceRef mem_0_0))))
+          (net dec0_wre3
+            (joined
+              (portRef WRE (instanceRef mem_0_3))
+              (portRef DO0 (instanceRef LUT4_0))
+              (portRef WRE (instanceRef mem_0_0))
+              (portRef WRE (instanceRef mem_0_1))
+              (portRef WRE (instanceRef mem_0_2))))
+          (net dataout12
+            (joined
+              (portRef (member Q 0))
+              (portRef DO0 (instanceRef mem_0_0))))
+          (net dataout11
+            (joined
+              (portRef (member Q 1))
+              (portRef DO3 (instanceRef mem_0_1))))
+          (net dataout10
+            (joined
+              (portRef (member Q 2))
+              (portRef DO2 (instanceRef mem_0_1))))
+          (net dataout9
+            (joined
+              (portRef (member Q 3))
+              (portRef DO1 (instanceRef mem_0_1))))
+          (net dataout8
+            (joined
+              (portRef (member Q 4))
+              (portRef DO0 (instanceRef mem_0_1))))
+          (net dataout7
+            (joined
+              (portRef (member Q 5))
+              (portRef DO3 (instanceRef mem_0_2))))
+          (net dataout6
+            (joined
+              (portRef (member Q 6))
+              (portRef DO2 (instanceRef mem_0_2))))
+          (net dataout5
+            (joined
+              (portRef (member Q 7))
+              (portRef DO1 (instanceRef mem_0_2))))
+          (net dataout4
+            (joined
+              (portRef (member Q 8))
+              (portRef DO0 (instanceRef mem_0_2))))
+          (net dataout3
+            (joined
+              (portRef (member Q 9))
+              (portRef DO3 (instanceRef mem_0_3))))
+          (net dataout2
+            (joined
+              (portRef (member Q 10))
+              (portRef DO2 (instanceRef mem_0_3))))
+          (net dataout1
+            (joined
+              (portRef (member Q 11))
+              (portRef DO1 (instanceRef mem_0_3))))
+          (net dataout0
+            (joined
+              (portRef (member Q 12))
+              (portRef DO0 (instanceRef mem_0_3))))
+          (net Reset
+            (joined
+              (portRef Reset)))
+          (net cken
+            (joined
+              (portRef ClockEn)
+              (portRef AD2 (instanceRef LUT4_0))))
+          (net wren
+            (joined
+              (portRef WE)
+              (portRef AD3 (instanceRef LUT4_0))))
+          (net clk
+            (joined
+              (portRef Clock)
+              (portRef CK (instanceRef mem_0_0))
+              (portRef CK (instanceRef mem_0_1))
+              (portRef CK (instanceRef mem_0_2))
+              (portRef CK (instanceRef mem_0_3))))
+          (net datain12
+            (joined
+              (portRef (member Data 0))
+              (portRef DI0 (instanceRef mem_0_0))))
+          (net datain11
+            (joined
+              (portRef (member Data 1))
+              (portRef DI3 (instanceRef mem_0_1))))
+          (net datain10
+            (joined
+              (portRef (member Data 2))
+              (portRef DI2 (instanceRef mem_0_1))))
+          (net datain9
+            (joined
+              (portRef (member Data 3))
+              (portRef DI1 (instanceRef mem_0_1))))
+          (net datain8
+            (joined
+              (portRef (member Data 4))
+              (portRef DI0 (instanceRef mem_0_1))))
+          (net datain7
+            (joined
+              (portRef (member Data 5))
+              (portRef DI3 (instanceRef mem_0_2))))
+          (net datain6
+            (joined
+              (portRef (member Data 6))
+              (portRef DI2 (instanceRef mem_0_2))))
+          (net datain5
+            (joined
+              (portRef (member Data 7))
+              (portRef DI1 (instanceRef mem_0_2))))
+          (net datain4
+            (joined
+              (portRef (member Data 8))
+              (portRef DI0 (instanceRef mem_0_2))))
+          (net datain3
+            (joined
+              (portRef (member Data 9))
+              (portRef DI3 (instanceRef mem_0_3))))
+          (net datain2
+            (joined
+              (portRef (member Data 10))
+              (portRef DI2 (instanceRef mem_0_3))))
+          (net datain1
+            (joined
+              (portRef (member Data 11))
+              (portRef DI1 (instanceRef mem_0_3))))
+          (net datain0
+            (joined
+              (portRef (member Data 12))
+              (portRef DI0 (instanceRef mem_0_3))))
+          (net addr3
+            (joined
+              (portRef (member Address 0))
+              (portRef AD3 (instanceRef mem_0_0))
+              (portRef AD3 (instanceRef mem_0_1))
+              (portRef AD3 (instanceRef mem_0_2))
+              (portRef AD3 (instanceRef mem_0_3))))
+          (net addr2
+            (joined
+              (portRef (member Address 1))
+              (portRef AD2 (instanceRef mem_0_0))
+              (portRef AD2 (instanceRef mem_0_1))
+              (portRef AD2 (instanceRef mem_0_2))
+              (portRef AD2 (instanceRef mem_0_3))))
+          (net addr1
+            (joined
+              (portRef (member Address 2))
+              (portRef AD1 (instanceRef mem_0_0))
+              (portRef AD1 (instanceRef mem_0_1))
+              (portRef AD1 (instanceRef mem_0_2))
+              (portRef AD1 (instanceRef mem_0_3))))
+          (net addr0
+            (joined
+              (portRef (member Address 3))
+              (portRef AD0 (instanceRef mem_0_0))
+              (portRef AD0 (instanceRef mem_0_1))
+              (portRef AD0 (instanceRef mem_0_2))
+              (portRef AD0 (instanceRef mem_0_3))))))))
+  (design pmi_distributed_spramMbnonen13416pb8bdb14
+    (cellRef pmi_distributed_spramMbnonen13416pb8bdb14
+      (libraryRef ORCLIB)))
+)

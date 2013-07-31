@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\sync_controller_sync_controller.srf</data>
+<title>##### START OF TIMING REPORT #####[</title>
+</report_link>
+<row>
+<data>Clock Name</data>
+<data>Req Freq</data>
+<data>Est Freq</data>
+<data>Slack</data>
+</row>
+<row>
+<data>clock_divider_512|clk_out_i_derived_clock</data>
+<data>1.0 MHz</data>
+<data>168.6 MHz</data>
+<data>1992.631</data>
+</row>
+<row>
+<data>sync_controller_top|clk_i_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>64.5 MHz</data>
+<data>984.507</data>
+</row>
+<row>
+<data>System</data>
+<data>1.0 MHz</data>
+<data>75.9 MHz</data>
+<data>986.830</data>
+</row>
+</report_table>

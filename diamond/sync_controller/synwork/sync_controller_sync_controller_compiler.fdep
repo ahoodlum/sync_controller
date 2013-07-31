@@ -1,0 +1,357 @@
+#OPTIONS:"|-mixedhdl|-top|sync_controller_top|-layerid|0|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\bin64\\c_vhdl.exe":1352744672
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\location.map":1352755998
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\std.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\std1164.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\numeric.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\arith.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1352744958
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\clock_divider.vhd":1374481334
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\triggered_counter.vhd":1375167382
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\sync_controller_wb_wrapper.vhd":1375214230
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\sync_controller_top.vhd":1375211679
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\cpld\\lattice.vhd":1352744786
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1347650694
+#OPTIONS:"|-mixedhdl|-modhint|_verilog_hintfile|-top|work.sync_controller|-layerid|1|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-I|C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond|-I|C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\|-I|C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\bin64\\c_ver.exe":1352744672
+#CUR:"_verilog_hintfile":1375250361
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\machxo2.v":1347650694
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\pmi_def.v":1352744792
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\umr_capim.v":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vlog\\hypermods.v":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\cae_library\\synthesis\\verilog\\machxo2.v":1347654294
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\sync_controller.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_include_all.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\pmi_def.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_include.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_interrupt.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_io_cntl.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_flow_cntl.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_idec.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_alu.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_core.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/lm8/rtl/verilog/lm8_top.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/gpio/rtl/verilog/gpio.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/gpio/rtl/verilog/tpio.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog/uart_core.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\intface.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\txcver_fifo.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\rxcver.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\rxcver_fifo.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/uart_core/rtl/verilog\\txmitt.v":1374822013
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/slave_passthru/rtl/verilog/slave_passthru.v":1375070121
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\../components/slave_passthru/rtl/verilog/passthru.v":1375070121
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\sync_controller\\soc\\system_conf.v":1375250311
+0			"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\clock_divider.vhd" vhdl
+1			"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\triggered_counter.vhd" vhdl
+2			"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd" vhdl
+3			"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\..\vhdl\sync_controller_top.vhd" vhdl
+4			"C:\lscc\diamond\2.1_x64\cae_library\synthesis\verilog\machxo2.v" verilog
+5			"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v" verilog
+6		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+7		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_include_all.v" verilog
+8		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v" verilog
+9		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+10		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_include.v" verilog
+11		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v" verilog
+12		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+13		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_io_cntl.v" verilog
+14		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v" verilog
+15		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_idec.v" verilog
+16		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_alu.v" verilog
+17		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v" verilog
+18		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v" verilog
+19		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v" verilog
+20		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+21		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v" verilog
+22		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+23		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\uart_core.v" verilog
+24		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+25		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v" verilog
+26		*	"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\system_conf.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 -1
+#Design Unit to File Association
+module work sync_controller 5
+module work slave_passthru 25
+module work passthru 26
+module work uart_core 19
+module work txmitt 24
+module work rxcver 22
+module work rxcver_fifo 23
+module work intface 20
+module work txcver_fifo 21
+module work gpio 17
+module work TRI_PIO 18
+module work lm8 16
+module work lm8_core 15
+module work lm8_alu 14
+module work lm8_idec 13
+module work lm8_flow_cntl 12
+module work lm8_io_cntl 11
+module work lm8_interrupt 10
+module work pmi_fifo 8
+module work pmi_fifo_dc 8
+module work pmi_rom 8
+module work pmi_ram_dq 8
+module work pmi_ram_dp 8
+module work pmi_addsub 8
+module work pmi_distributed_spram 8
+module work pmi_distributed_dpram 8
+module work arbiter2 5
+module work TSALL 4
+module work EFB 4
+module work OSCH 4
+module work PLLREFCS 4
+module work EHXPLLJ 4
+module work PG 4
+module work LVDSOB 4
+module work INRDB 4
+module work BCLVDSO 4
+module work BCINRD 4
+module work PCNTR 4
+module work CLKFBBUFA 4
+module work DLLDELC 4
+module work DELAYD 4
+module work DELAYE 4
+module work DQSDLLC 4
+module work DQSBUFH 4
+module work TDDRA 4
+module work ODDRX71A 4
+module work ODDRDQSX1A 4
+module work ODDRX4B 4
+module work ODDRX2E 4
+module work ODDRXE 4
+module work IDDRX71A 4
+module work IDDRDQSX1A 4
+module work IDDRX4B 4
+module work IDDRX2E 4
+module work IDDRXE 4
+module work SEDFB 4
+module work SEDFA 4
+module work START 4
+module work JTAGF 4
+module work DCCA 4
+module work ECLKBRIDGECS 4
+module work ECLKSYNCA 4
+module work DCMA 4
+module work CLKDIVC 4
+module work FIFO8KB 4
+module work SP8KC 4
+module work PDPW8KC 4
+module work DP8KC 4
+module work SGSR 4
+module work SPR16X4C 4
+module work DPR16X4C 4
+module work IFS1S1J 4
+module work IFS1S1I 4
+module work IFS1S1D 4
+module work IFS1S1B 4
+module work XOR5 4
+module work XOR4 4
+module work XOR3 4
+module work XOR21 4
+module work XOR2 4
+module work XOR11 4
+module work XNOR5 4
+module work XNOR4 4
+module work XNOR3 4
+module work XNOR2 4
+module work VLO 4
+module work VHI 4
+module work CCU2D 4
+module work ROM64X1A 4
+module work ROM32X1A 4
+module work ROM256X1A 4
+module work ROM16X1A 4
+module work ROM128X1A 4
+module work PUR 4
+module work PFUMX 4
+module work LUT8 4
+module work LUT7 4
+module work LUT6 4
+module work LUT5 4
+module work LUT4 4
+module work OR5 4
+module work OR4 4
+module work OR3 4
+module work OR2 4
+module work OLVDS 4
+module work OFS1P3JX 4
+module work OFS1P3IX 4
+module work OFS1P3DX 4
+module work OFS1P3BX 4
+module work OBZPU 4
+module work OBZ 4
+module work OBCO 4
+module work OB 4
+module work NR5 4
+module work NR4 4
+module work NR3 4
+module work NR2 4
+module work ND5 4
+module work ND4 4
+module work ND3 4
+module work ND2 4
+module work MUX81 4
+module work MUX41 4
+module work MUX321 4
+module work MUX21 4
+module work MUX161 4
+module work MULT2 4
+module work LU2P3JX 4
+module work LU2P3IX 4
+module work LU2P3DX 4
+module work LU2P3BX 4
+module work LU2P3AY 4
+module work LU2P3AX 4
+module work LD2P3JX 4
+module work LD2P3IX 4
+module work LD2P3DX 4
+module work LD2P3BX 4
+module work LD2P3AY 4
+module work LD2P3AX 4
+module work LB2P3JX 4
+module work LB2P3IX 4
+module work LB2P3DX 4
+module work LB2P3BX 4
+module work LB2P3AY 4
+module work LB2P3AX 4
+module work L6MUX21 4
+module work INV 4
+module work ILVDS 4
+module work IFS1P3JX 4
+module work IFS1P3IX 4
+module work IFS1P3DX 4
+module work IFS1P3BX 4
+module work IBPU 4
+module work IBPD 4
+module work IB 4
+module work GSR 4
+module work FSUB2B 4
+module work FL1S3AY 4
+module work FL1S3AX 4
+module work FL1S1J 4
+module work FL1S1I 4
+module work FL1S1D 4
+module work FL1S1B 4
+module work FL1S1AY 4
+module work FL1S1A 4
+module work FL1P3JY 4
+module work FL1P3IY 4
+module work FL1P3DX 4
+module work FL1P3BX 4
+module work FL1P3AZ 4
+module work FL1P3AY 4
+module work FD1S3JX 4
+module work FD1S3IX 4
+module work FD1S3DX 4
+module work FD1S3BX 4
+module work FD1S3AY 4
+module work FD1S3AX 4
+module work FD1S1J 4
+module work FD1S1I 4
+module work FD1S1D 4
+module work FD1S1B 4
+module work FD1S1AY 4
+module work FD1S1A 4
+module work FD1P3JX 4
+module work FD1P3IX 4
+module work FD1P3DX 4
+module work FD1P3BX 4
+module work FD1P3AY 4
+module work FD1P3AX 4
+module work FADSU2 4
+module work FADD2B 4
+module work CU2 4
+module work CD2 4
+module work CB2 4
+module work BBW 4
+module work BBPU 4
+module work BBPD 4
+module work BB 4
+module work ANEB2 4
+module work AND5 4
+module work AND4 4
+module work AND3 4
+module work AND2 4
+module work ALEB2 4
+module work AGEB2 4
+module work sync_controller_top 3
+arch work sync_controller_top behavioral 3
+module work sync_controller_wb_wrapper 2
+arch work sync_controller_wb_wrapper behavioral 2
+module work sio 1
+arch work sio sio_arch 1
+module work clock_divider 0
+arch work clock_divider behavioral 0

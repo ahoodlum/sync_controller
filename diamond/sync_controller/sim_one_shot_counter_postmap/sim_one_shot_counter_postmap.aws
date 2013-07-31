@@ -1,0 +1,14 @@
+[Version]
+Version=9.2
+[Designs]
+sim_one_shot_counter_postmap=sim_one_shot_counter_postmap.adf
+[Settings]
+Active=sim_one_shot_counter_postmap
+[Expand]
+sim_one_shot_counter_postmap=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

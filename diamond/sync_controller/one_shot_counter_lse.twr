@@ -1,0 +1,260 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Mon Jul 29 22:01:48 2013
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2012 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     one_shot_counter
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk1 [get_nets clk_c]
+            574 items scored, 242 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 1.783ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             counter_59__i0  (from clk +)
+   Destination:    FD1S3IX    D              counter_59__i29  (to clk +)
+
+   Delay:                   6.623ns  (61.4% logic, 38.6% route), 17 logic levels.
+
+ Constraint Details:
+
+      6.623ns data_path counter_59__i0 to counter_59__i29 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 1.783ns
+
+ Path Details: counter_59__i0 to counter_59__i29
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              counter_59__i0 (from clk)
+Route         3   e 1.315                                  counter[0]
+A1_TO_FCO   ---     0.827           A[2] to COUT           counter_59_add_4_1
+Route         1   e 0.020                                  n502
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_3
+Route         1   e 0.020                                  n503
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_5
+Route         1   e 0.020                                  n504
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_7
+Route         1   e 0.020                                  n505
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_9
+Route         1   e 0.020                                  n506
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_11
+Route         1   e 0.020                                  n507
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_13
+Route         1   e 0.020                                  n508
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_15
+Route         1   e 0.020                                  n509
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_17
+Route         1   e 0.020                                  n510
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_19
+Route         1   e 0.020                                  n511
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_21
+Route         1   e 0.020                                  n512
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_23
+Route         1   e 0.020                                  n513
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_25
+Route         1   e 0.020                                  n514
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_27
+Route         1   e 0.020                                  n515
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_29
+Route         1   e 0.020                                  n516
+FCI_TO_F    ---     0.598            CIN to S[2]           counter_59_add_4_31
+Route         1   e 0.941                                  n132
+                  --------
+                    6.623  (61.4% logic, 38.6% route), 17 logic levels.
+
+
+Error:  The following path violates requirements by 1.783ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             counter_59__i0  (from clk +)
+   Destination:    FD1S3IX    D              counter_59__i30  (to clk +)
+
+   Delay:                   6.623ns  (61.4% logic, 38.6% route), 17 logic levels.
+
+ Constraint Details:
+
+      6.623ns data_path counter_59__i0 to counter_59__i30 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 1.783ns
+
+ Path Details: counter_59__i0 to counter_59__i30
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              counter_59__i0 (from clk)
+Route         3   e 1.315                                  counter[0]
+A1_TO_FCO   ---     0.827           A[2] to COUT           counter_59_add_4_1
+Route         1   e 0.020                                  n502
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_3
+Route         1   e 0.020                                  n503
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_5
+Route         1   e 0.020                                  n504
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_7
+Route         1   e 0.020                                  n505
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_9
+Route         1   e 0.020                                  n506
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_11
+Route         1   e 0.020                                  n507
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_13
+Route         1   e 0.020                                  n508
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_15
+Route         1   e 0.020                                  n509
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_17
+Route         1   e 0.020                                  n510
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_19
+Route         1   e 0.020                                  n511
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_21
+Route         1   e 0.020                                  n512
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_23
+Route         1   e 0.020                                  n513
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_25
+Route         1   e 0.020                                  n514
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_27
+Route         1   e 0.020                                  n515
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_29
+Route         1   e 0.020                                  n516
+FCI_TO_F    ---     0.598            CIN to S[2]           counter_59_add_4_31
+Route         1   e 0.941                                  n131
+                  --------
+                    6.623  (61.4% logic, 38.6% route), 17 logic levels.
+
+
+Error:  The following path violates requirements by 1.606ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             counter_59__i1  (from clk +)
+   Destination:    FD1S3IX    D              counter_59__i29  (to clk +)
+
+   Delay:                   6.446ns  (60.7% logic, 39.3% route), 16 logic levels.
+
+ Constraint Details:
+
+      6.446ns data_path counter_59__i1 to counter_59__i29 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 1.606ns
+
+ Path Details: counter_59__i1 to counter_59__i29
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              counter_59__i1 (from clk)
+Route         3   e 1.315                                  counter[1]
+A1_TO_FCO   ---     0.827           A[2] to COUT           counter_59_add_4_3
+Route         1   e 0.020                                  n503
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_5
+Route         1   e 0.020                                  n504
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_7
+Route         1   e 0.020                                  n505
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_9
+Route         1   e 0.020                                  n506
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_11
+Route         1   e 0.020                                  n507
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_13
+Route         1   e 0.020                                  n508
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_15
+Route         1   e 0.020                                  n509
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_17
+Route         1   e 0.020                                  n510
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_19
+Route         1   e 0.020                                  n511
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_21
+Route         1   e 0.020                                  n512
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_23
+Route         1   e 0.020                                  n513
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_25
+Route         1   e 0.020                                  n514
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_27
+Route         1   e 0.020                                  n515
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_59_add_4_29
+Route         1   e 0.020                                  n516
+FCI_TO_F    ---     0.598            CIN to S[2]           counter_59_add_4_31
+Route         1   e 0.941                                  n132
+                  --------
+                    6.446  (60.7% logic, 39.3% route), 16 logic levels.
+
+Warning: 6.783 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets n470]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets clk_c]                   |     5.000 ns|     6.783 ns|    17 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets n470]                    |            -|            -|     0  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+n509                                    |       1|     200|     82.64%
+                                        |        |        |
+n510                                    |       1|     198|     81.82%
+                                        |        |        |
+n508                                    |       1|     194|     80.17%
+                                        |        |        |
+n511                                    |       1|     188|     77.69%
+                                        |        |        |
+n507                                    |       1|     180|     74.38%
+                                        |        |        |
+n512                                    |       1|     170|     70.25%
+                                        |        |        |
+n506                                    |       1|     158|     65.29%
+                                        |        |        |
+n513                                    |       1|     144|     59.50%
+                                        |        |        |
+n505                                    |       1|     130|     53.72%
+                                        |        |        |
+n514                                    |       1|     114|     47.11%
+                                        |        |        |
+n504                                    |       1|      98|     40.50%
+                                        |        |        |
+n515                                    |       1|      80|     33.06%
+                                        |        |        |
+n503                                    |       1|      62|     25.62%
+                                        |        |        |
+n516                                    |       1|      42|     17.36%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 242  Score: 139436
+
+Constraints cover  574 paths, 81 nets, and 147 connections (53.5% coverage)
+
+
+Peak memory: 76312576 bytes, TRCE: 2420736 bytes, DLYMAN: 167936 bytes
+CPU_TIME_REPORT: 0 secs 

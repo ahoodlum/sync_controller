@@ -1,0 +1,5 @@
+CKID0001:@|S:counter1.un1_state_4_0@|E:counter1.next_state_0_.res_lat@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001
+CKID0002:@|S:counter1.un1_counter_2_0@|E:counter1.next_state_1_.res_lat@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002
+CKID0003:@|S:clk_counter@|E:counter1.state[1]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003
+CKID0004:@|S:CLK_I@|E:Q_0io[0]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004
+CKID0005:@|S:sync_in@|E:ff1_qio@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005

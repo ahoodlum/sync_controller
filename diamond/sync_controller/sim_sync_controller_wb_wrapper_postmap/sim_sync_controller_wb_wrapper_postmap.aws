@@ -1,0 +1,14 @@
+[Version]
+Version=9.2
+[Designs]
+sim_sync_controller_wb_wrapper_postmap=sim_sync_controller_wb_wrapper_postmap.adf
+[Settings]
+Active=sim_sync_controller_wb_wrapper_postmap
+[Expand]
+sim_sync_controller_wb_wrapper_postmap=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

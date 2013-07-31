@@ -1,0 +1,25 @@
+@N: CD630 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":6:7:6:32|Synthesizing work.sync_controller_wb_wrapper.behavioral 
+@N: CD364 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":76:5:76:5|Removed redundant assignment
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":52:7:52:13|Signal reg_0_i is undriven 
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":53:7:53:13|Signal reg_1_i is undriven 
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":54:7:54:13|Signal reg_2_i is undriven 
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":55:7:55:13|Signal reg_3_i is undriven 
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":56:7:56:13|Signal reg_4_i is undriven 
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":57:7:57:13|Signal reg_5_i is undriven 
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":58:7:58:13|Signal reg_6_i is undriven 
+@W: CD638 :"C:\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":59:7:59:13|Signal reg_7_i is undriven 
+@N: CD630 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":5:7:5:22|Synthesizing work.one_shot_counter.behavioral 
+@N: CD233 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":17:16:17:17|Using sequential encoding for type state_type
+@W: CD604 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":44:3:44:16|OTHERS clause is not synthesized 
+@W: CD434 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":27:9:27:11|Signal clk in the sensitivity list is not used in the process
+@W: CG296 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":27:1:27:7|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":41:39:41:48|Referenced variable reset_stop is not in sensitivity list
+@W: CG290 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":35:38:35:48|Referenced variable reset_start is not in sensitivity list
+@W: CG290 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":35:8:35:14|Referenced variable counter is not in sensitivity list
+@W: CG290 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":29:7:29:11|Referenced variable state is not in sensitivity list
+@W: CD604 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":72:4:72:17|OTHERS clause is not synthesized 
+Post processing for work.one_shot_counter.behavioral
+@W: CL113 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\one_shot_counter.vhd":29:2:29:5|Feedback mux created for signal next_state[1:0].
+@N: CD630 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\async_ff.vhd":4:7:4:19|Synthesizing work.dff_async_rst.behavioral 
+Post processing for work.dff_async_rst.behavioral
+Post processing for work.sync_controller_wb_wrapper.behavioral

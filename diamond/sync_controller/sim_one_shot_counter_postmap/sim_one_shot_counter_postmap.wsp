@@ -1,0 +1,15 @@
+[General]
+CurrentVersion=103
+[COMPILESTATUS|.\..\sync_controller_sync_controller_mapvho.vho]
+FileTimeLow=30313697
+Status=Compiled
+[COMPILESTATUS|.\..\..\..\..\..\..\my_designs\sync_controller\sync_controller_rtl\src\TestBench\one_shot_counter_TB.vhd]
+FileTimeLow=30313696
+Status=Compiled
+[COMPILESTATUS|.\..\sync_controller_sync_controller_mapvho.sdf]
+FileTimeLow=30313697
+Status=Modified
+[CACHEDOC|Aldec.Project.Generic.7|.\sim_one_shot_counter_postmap.adf|]
+Path=/one_shot_counter_tb
+[Gui config]
+RunFor=10 ms

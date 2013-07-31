@@ -1,0 +1,5 @@
+MESSAGE "File: C:\my_designs\sync_controller\sync_controller_rtl\src\TestBench\one_shot_counter_TB.vhd" 
+MESSAGE "Compile Entity "one_shot_counter_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "one_shot_counter_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_one_shot_counter"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

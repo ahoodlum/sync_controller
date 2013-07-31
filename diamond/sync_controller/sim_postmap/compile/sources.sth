@@ -1,0 +1,10 @@
+[Files List]
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\std\src\standard.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\std\src\textio.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\std_logic_1164.vhdl=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\std_logic_1164-body.vhdl=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\arith_p.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\arith_b.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\unsigned_p.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\unsigned_b.vhd=S
+C:\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sync_controller_wb_wrapper_TB.vhd=S

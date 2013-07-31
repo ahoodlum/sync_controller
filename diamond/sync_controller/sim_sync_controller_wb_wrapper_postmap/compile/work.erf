@@ -1,0 +1,294 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: C:\lscc\diamond\2.0\examples\sync_controller\sync_controller_sync_controller_mapvho.vho" 
+BEGINPROGRESS C:\lscc\diamond\2.0\examples\sync_controller\sync_controller_sync_controller_mapvho.vho
+MESSAGE "Compile Entity "vmuxregsre"" 
+MESSAGE "Compile Architecture "Structure" of Entity "vmuxregsre"" 
+MESSAGE "Compile Entity "vcc"" 
+MESSAGE "Compile Architecture "Structure" of Entity "vcc"" 
+MESSAGE "Compile Entity "gnd"" 
+MESSAGE "Compile Architecture "Structure" of Entity "gnd"" 
+MESSAGE "Compile Entity "ccu2B0"" 
+MESSAGE "Compile Architecture "Structure" of Entity "ccu2B0"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_0"" 
+UPDATEPROGRESS 1
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_0"" 
+UPDATEPROGRESS 2
+MESSAGE "Compile Entity "ccu20001"" 
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20001"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_1"" 
+UPDATEPROGRESS 3
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_1"" 
+MESSAGE "Compile Entity "ccu20002"" 
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20002"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_2"" 
+UPDATEPROGRESS 4
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_2"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_3"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_3"" 
+UPDATEPROGRESS 5
+MESSAGE "Compile Entity "triggered_counter_SLICE_4"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_4"" 
+UPDATEPROGRESS 6
+MESSAGE "Compile Entity "ccu20003"" 
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20003"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_5"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_5"" 
+UPDATEPROGRESS 7
+MESSAGE "Compile Entity "ccu20004"" 
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20004"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_6"" 
+UPDATEPROGRESS 8
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_6"" 
+MESSAGE "Compile Entity "ccu20005"" 
+UPDATEPROGRESS 9
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20005"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_7"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_7"" 
+UPDATEPROGRESS 10
+MESSAGE "Compile Entity "triggered_counter_SLICE_8"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_8"" 
+UPDATEPROGRESS 11
+MESSAGE "Compile Entity "ccu20006"" 
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20006"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_9"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_9"" 
+UPDATEPROGRESS 12
+MESSAGE "Compile Entity "ccu20007"" 
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20007"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_10"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_10"" 
+UPDATEPROGRESS 13
+MESSAGE "Compile Entity "ccu20008"" 
+UPDATEPROGRESS 14
+MESSAGE "Compile Architecture "Structure" of Entity "ccu20008"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_11"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_11"" 
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+MESSAGE "Compile Entity "triggered_counter_SLICE_12"" 
+UPDATEPROGRESS 17
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_12"" 
+UPDATEPROGRESS 18
+UPDATEPROGRESS 19
+MESSAGE "Compile Entity "triggered_counter_SLICE_13"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_13"" 
+UPDATEPROGRESS 20
+UPDATEPROGRESS 21
+MESSAGE "Compile Entity "triggered_counter_SLICE_14"" 
+UPDATEPROGRESS 22
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_14"" 
+UPDATEPROGRESS 23
+UPDATEPROGRESS 24
+MESSAGE "Compile Entity "triggered_counter_SLICE_15"" 
+UPDATEPROGRESS 25
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_15"" 
+UPDATEPROGRESS 26
+UPDATEPROGRESS 27
+MESSAGE "Compile Entity "triggered_counter_SLICE_16"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_16"" 
+UPDATEPROGRESS 28
+UPDATEPROGRESS 29
+MESSAGE "Compile Entity "triggered_counter_SLICE_17"" 
+UPDATEPROGRESS 30
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_17"" 
+UPDATEPROGRESS 31
+UPDATEPROGRESS 32
+MESSAGE "Compile Entity "triggered_counter_SLICE_18"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_18"" 
+UPDATEPROGRESS 33
+UPDATEPROGRESS 34
+MESSAGE "Compile Entity "triggered_counter_SLICE_19"" 
+UPDATEPROGRESS 35
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_19"" 
+UPDATEPROGRESS 36
+UPDATEPROGRESS 37
+MESSAGE "Compile Entity "triggered_counter_SLICE_20"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_20"" 
+UPDATEPROGRESS 38
+UPDATEPROGRESS 39
+UPDATEPROGRESS 40
+MESSAGE "Compile Entity "triggered_counter_SLICE_21"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_21"" 
+UPDATEPROGRESS 41
+UPDATEPROGRESS 42
+MESSAGE "Compile Entity "triggered_counter_SLICE_22"" 
+UPDATEPROGRESS 43
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_22"" 
+UPDATEPROGRESS 44
+UPDATEPROGRESS 45
+MESSAGE "Compile Entity "triggered_counter_SLICE_23"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_23"" 
+UPDATEPROGRESS 46
+UPDATEPROGRESS 47
+MESSAGE "Compile Entity "triggered_counter_SLICE_24"" 
+UPDATEPROGRESS 48
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_24"" 
+UPDATEPROGRESS 49
+UPDATEPROGRESS 50
+MESSAGE "Compile Entity "triggered_counter_SLICE_25"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_25"" 
+UPDATEPROGRESS 51
+UPDATEPROGRESS 52
+UPDATEPROGRESS 53
+MESSAGE "Compile Entity "lut4"" 
+MESSAGE "Compile Architecture "Structure" of Entity "lut4"" 
+MESSAGE "Compile Entity "lut40009"" 
+MESSAGE "Compile Architecture "Structure" of Entity "lut40009"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_26"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_26"" 
+UPDATEPROGRESS 54
+UPDATEPROGRESS 55
+MESSAGE "Compile Entity "lut40010"" 
+MESSAGE "Compile Architecture "Structure" of Entity "lut40010"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_27"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_27"" 
+UPDATEPROGRESS 56
+UPDATEPROGRESS 57
+MESSAGE "Compile Entity "lut40011"" 
+MESSAGE "Compile Architecture "Structure" of Entity "lut40011"" 
+MESSAGE "Compile Entity "lut40012"" 
+MESSAGE "Compile Architecture "Structure" of Entity "lut40012"" 
+MESSAGE "Compile Entity "triggered_counter_SLICE_28"" 
+MESSAGE "Compile Architecture "Structure" of Entity "triggered_counter_SLICE_28"" 
+UPDATEPROGRESS 58
+UPDATEPROGRESS 59
+MESSAGE "Compile Entity "lut40013"" 
+MESSAGE "Compile Architecture "Structure" of Entity "lut40013"" 
+MESSAGE "Compile Entity "SLICE_29"" 
+MESSAGE "Compile Architecture "Structure" of Entity "SLICE_29"" 
+UPDATEPROGRESS 60
+MESSAGE "Compile Entity "xo2iobuf"" 
+MESSAGE "Compile Architecture "Structure" of Entity "xo2iobuf"" 
+MESSAGE "Compile Entity "sync_outB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "sync_outB"" 
+UPDATEPROGRESS 61
+MESSAGE "Compile Entity "xo2iobuf0014"" 
+MESSAGE "Compile Architecture "Structure" of Entity "xo2iobuf0014"" 
+MESSAGE "Compile Entity "sync_inB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "sync_inB"" 
+UPDATEPROGRESS 62
+MESSAGE "Compile Entity "smuxlregsre"" 
+MESSAGE "Compile Architecture "Structure" of Entity "smuxlregsre"" 
+MESSAGE "Compile Entity "sync_in_MGIOL"" 
+MESSAGE "Compile Architecture "Structure" of Entity "sync_in_MGIOL"" 
+UPDATEPROGRESS 63
+MESSAGE "Compile Entity "PRT_O_3_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "PRT_O_3_B"" 
+MESSAGE "Compile Entity "PRT_O_2_B"" 
+UPDATEPROGRESS 64
+MESSAGE "Compile Architecture "Structure" of Entity "PRT_O_2_B"" 
+MESSAGE "Compile Entity "PRT_O_1_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "PRT_O_1_B"" 
+UPDATEPROGRESS 65
+MESSAGE "Compile Entity "PRT_O_0_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "PRT_O_0_B"" 
+MESSAGE "Compile Entity "WE_IB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "WE_IB"" 
+UPDATEPROGRESS 66
+MESSAGE "Compile Entity "STB_IB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "STB_IB"" 
+UPDATEPROGRESS 67
+MESSAGE "Compile Entity "RST_IB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "RST_IB"" 
+MESSAGE "Compile Entity "DAT_O_7_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_7_B"" 
+UPDATEPROGRESS 68
+MESSAGE "Compile Entity "DAT_O_6_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_6_B"" 
+UPDATEPROGRESS 69
+MESSAGE "Compile Entity "DAT_O_5_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_5_B"" 
+MESSAGE "Compile Entity "DAT_O_4_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_4_B"" 
+UPDATEPROGRESS 70
+MESSAGE "Compile Entity "DAT_O_3_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_3_B"" 
+MESSAGE "Compile Entity "DAT_O_2_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_2_B"" 
+UPDATEPROGRESS 71
+MESSAGE "Compile Entity "DAT_O_1_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_1_B"" 
+UPDATEPROGRESS 72
+MESSAGE "Compile Entity "DAT_O_0_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_O_0_B"" 
+MESSAGE "Compile Entity "DAT_I_7_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_7_B"" 
+UPDATEPROGRESS 73
+MESSAGE "Compile Entity "smuxlregsre0015"" 
+MESSAGE "Compile Architecture "Structure" of Entity "smuxlregsre0015"" 
+MESSAGE "Compile Entity "DAT_I_7_MGIOL"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_7_MGIOL"" 
+UPDATEPROGRESS 74
+UPDATEPROGRESS 75
+MESSAGE "Compile Entity "DAT_I_6_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_6_B"" 
+MESSAGE "Compile Entity "DAT_I_6_MGIOL"" 
+UPDATEPROGRESS 76
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_6_MGIOL"" 
+UPDATEPROGRESS 77
+MESSAGE "Compile Entity "DAT_I_5_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_5_B"" 
+MESSAGE "Compile Entity "DAT_I_5_MGIOL"" 
+UPDATEPROGRESS 78
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_5_MGIOL"" 
+UPDATEPROGRESS 79
+MESSAGE "Compile Entity "DAT_I_4_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_4_B"" 
+UPDATEPROGRESS 80
+MESSAGE "Compile Entity "DAT_I_4_MGIOL"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_4_MGIOL"" 
+UPDATEPROGRESS 81
+MESSAGE "Compile Entity "DAT_I_3_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_3_B"" 
+UPDATEPROGRESS 82
+MESSAGE "Compile Entity "DAT_I_3_MGIOL"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_3_MGIOL"" 
+UPDATEPROGRESS 83
+MESSAGE "Compile Entity "DAT_I_2_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_2_B"" 
+UPDATEPROGRESS 84
+MESSAGE "Compile Entity "DAT_I_2_MGIOL"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_2_MGIOL"" 
+UPDATEPROGRESS 85
+MESSAGE "Compile Entity "DAT_I_1_B"" 
+UPDATEPROGRESS 86
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_1_B"" 
+MESSAGE "Compile Entity "DAT_I_1_MGIOL"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_1_MGIOL"" 
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+MESSAGE "Compile Entity "DAT_I_0_B"" 
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_0_B"" 
+MESSAGE "Compile Entity "DAT_I_0_MGIOL"" 
+UPDATEPROGRESS 89
+MESSAGE "Compile Architecture "Structure" of Entity "DAT_I_0_MGIOL"" 
+UPDATEPROGRESS 90
+MESSAGE "Compile Entity "CLK_IB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "CLK_IB"" 
+MESSAGE "Compile Entity "ACK_OB"" 
+UPDATEPROGRESS 91
+MESSAGE "Compile Architecture "Structure" of Entity "ACK_OB"" 
+MESSAGE "Compile Entity "clk_counterB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "clk_counterB"" 
+UPDATEPROGRESS 92
+MESSAGE "Compile Entity "GSR5MODE"" 
+MESSAGE "Compile Architecture "Structure" of Entity "GSR5MODE"" 
+MESSAGE "Compile Entity "GSR_INSTB"" 
+MESSAGE "Compile Architecture "Structure" of Entity "GSR_INSTB"" 
+MESSAGE "Compile Entity "sync_controller_wb_wrapper"" 
+UPDATEPROGRESS 93
+MESSAGE "Compile Architecture "Structure" of Entity "sync_controller_wb_wrapper"" 
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+MESSAGE "Compile Configuration "Structure_CON"" 
+UPDATEPROGRESS 100
+ENDPROGRESS C:\lscc\diamond\2.0\examples\sync_controller\sync_controller_sync_controller_mapvho.vho
+MESSAGE "File: C:\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sync_controller_wb_wrapper_TB.vhd" 
+MESSAGE "Compile Entity "sync_controller_wb_wrapper_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "sync_controller_wb_wrapper_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_sync_controller_wb_wrapper"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 

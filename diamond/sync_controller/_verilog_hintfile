@@ -1,0 +1,56 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\bin64\\c_vhdl.exe":1352744672
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\location.map":1352755998
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\std.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\std1164.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\numeric.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\arith.vhd":1352744958
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1352744958
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\clock_divider.vhd":1374481334
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\triggered_counter.vhd":1375167382
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\sync_controller_wb_wrapper.vhd":1375214230
+#CUR:"C:\\Users\\AndrewPC1\\Documents\\GitHub\\sync_controller\\diamond\\..\\vhdl\\sync_controller_top.vhd":1375211679
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\cpld\\lattice.vhd":1352744786
+#CUR:"C:\\lscc\\diamond\\2.1_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1347650694
+@E8lFkRDC#O$M_MOF0DsFD_Cs0
+FbDsHLNRs$I	Fs
+bHMkk0RN_s0#RHM4k
+F00bkRskN0F_#k40R
+0FkbRk0D_C8b_HFFRk0ck
+F00bkR8DC__ILFRk0cM
+HbRk0sR#04M
+HbRk0#O$M_RHM4k
+F00bkRM#$Ok_F0
+R4ClM8FD8kCF
+l8CkDRM#$OF_OMF0sDsDC__ILIbsNb
+CsDsHLNRs$I	Fs
+bHMk#0R$_MOH4MR
+bHMkO0RDO	_F0kMC4sR
+0FkbRk0#O$M_0FkRF4
+kk0b0BRqiR_m4M
+HbRk0B_piQ
+R4HkMb0qR7aR_QUk
+F00bkRa7q_UmR
+bHMk)0R1Qa_RH4
+M0bkRA1a_4QR
+bHMkW0R R_Q4k
+F00bkRau)_cmR
+8CMlkF8DlC
+FD8kCHR#FH
+DLssN$FRIsH	
+M0bkR#sCC40R
+bHMkO0RD4	R
+bHMkD0RNE0O_l0HCnR4
+bHMk#0RHNoMDM_HRF4
+kk0b0HR#oDMN_0FkRC4
+MF8l8CkD
+8lFkRDCOODF	H_8PCH8sH
+DLssN$FRIsb	
+NlsNCs0CRe7QQ)7 _a)qQHmRMo0CCHs
+M0bkR	ODR
+-4HkMb0CRs#_C0M4R-
+0FkbRk0O_D	FRk0-C4
+MF8l8CkD

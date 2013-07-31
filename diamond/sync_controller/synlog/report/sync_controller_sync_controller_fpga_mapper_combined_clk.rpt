@@ -1,0 +1,22 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 306 clock pin(s) of sequential element(s)
+0 instances converted, 306 sequential instances remain driven by gated/generated clocks
+
+= Non-Gated/Non-Generated Clocks =
+************** None **************
+----------------------------------
+==================================
+================================================================================================================================================================================= Gated/Generated Clocks ==================================================================================================================================================================================
+Clock Tree ID                                                                                                                              Driving Element       Drive Element Type     Fanout     Sample Instance                                           Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:"@|S:OSCInst0@|E:lm8_inst_LED_genblk3.genblk1.genblk1[0].PIO_DATAio[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001"              OSCInst0              OSCH                   270        lm8_inst_LED_genblk3.genblk1.genblk1[0].PIO_DATAio[0]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:"@|S:clk_div.clk_out_i@|E:wb_sync_wrapper_triggered_counter_signal_in_delayedio@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002"     clk_div.clk_out_i     FD1S3DX                36         wb_sync_wrapper_triggered_counter_signal_in_delayedio     Need declared clock or clock from port to derive clock from ff                                                                
+===========================================================================================================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

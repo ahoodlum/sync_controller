@@ -1,0 +1,493 @@
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":48:7:48:14|Synthesizing module arbiter2
+
+	MAX_DAT_WIDTH=32'b00000000000000000000000000001000
+	WBS_DAT_WIDTH=32'b00000000000000000000000000001000
+	WBM0_DAT_WIDTH=32'b00000000000000000000000000001000
+	WBM1_DAT_WIDTH=32'b00000000000000000000000000001000
+   Generated name = arbiter2_8s_8s_8s_8s
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_idec.v":47:7:47:14|Synthesizing module lm8_idec
+
+	PROM_AW=32'b00000000000000000000000000001011
+   Generated name = lm8_idec_11s
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":69:7:69:16|Synthesizing module pmi_addsub
+
+	pmi_data_width=32'b00000000000000000000000000001000
+	pmi_result_width=32'b00000000000000000000000000001000
+	pmi_sign=24'b011011110110011001100110
+	pmi_family=56'b01001101011000010110001101101000010110000100111100110010
+	module_type=80'b01110000011011010110100101011111011000010110010001100100011100110111010101100010
+   Generated name = pmi_addsub_8s_8s_off_MachXO2_pmi_addsub
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_alu.v":47:7:47:13|Synthesizing module lm8_alu
+
+	FAMILY_NAME=56'b01001101011000010110001101101000010110000100111100110010
+   Generated name = lm8_alu_MachXO2
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":48:7:48:27|Synthesizing module pmi_distributed_spram
+
+	pmi_addr_depth=32'b00000000000000000000000000010000
+	pmi_addr_width=32'b00000000000000000000000000000100
+	pmi_data_width=32'b00000000000000000000000000001101
+	pmi_regmode=40'b0110111001101111011100100110010101100111
+	pmi_init_file=32'b01101110011011110110111001100101
+	pmi_init_file_format=48'b011000100110100101101110011000010111001001111001
+	pmi_family=56'b01001101011000010110001101101000010110000100111100110010
+	module_type=168'b011100000110110101101001010111110110010001101001011100110111010001110010011010010110001001110101011101000110010101100100010111110111001101110000011100100110000101101101
+   Generated name = pmi_distributed_spram_16s_4s_13s_noreg_none_binary_MachXO2_pmi_distributed_spram_1_layer1
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":49:7:49:19|Synthesizing module lm8_flow_cntl
+
+	PGM_STACK_AW=32'b00000000000000000000000000000100
+	PGM_STACK_AD=32'b00000000000000000000000000010000
+	PROM_WB=32'b00000000000000000000000000000000
+	PROM_AW=32'b00000000000000000000000000001011
+	FAMILY_NAME=56'b01001101011000010110001101101000010110000100111100110010
+   Generated name = lm8_flow_cntl_4s_16s_0s_11s_MachXO2
+
+@W: CG296 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":225:25:228:39|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":234:51:234:56|Referenced variable import is not in sensitivity list
+@W: CG290 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":234:36:234:41|Referenced variable export is not in sensitivity list
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":121:14:121:22|No assignment to fetch_cyc
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":122:60:122:72|No assignment to fetch_cyc_nxt
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_io_cntl.v":47:8:47:18|Synthesizing module lm8_io_cntl
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":49:7:49:19|Synthesizing module lm8_interrupt
+
+	INTERRUPTS=32'b00000000000000000000000000001000
+   Generated name = lm8_interrupt_8s
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v":47:7:47:14|Synthesizing module lm8_core
+
+	FAMILY_NAME=56'b01001101011000010110001101101000010110000100111100110010
+	EXT_AW=32'b00000000000000000000000000010000
+	PROM_WB=32'b00000000000000000000000000000000
+	PROM_AW=32'b00000000000000000000000000001011
+	PROM_AD=32'b00000000000000000000100000000000
+	REGISTERS_16=32'b00000000000000000000000000000000
+	PGM_STACK_AW=32'b00000000000000000000000000000100
+	PGM_STACK_AD=32'b00000000000000000000000000010000
+	INTERRUPTS=32'b00000000000000000000000000001000
+	REG13=5'b01101
+	REG14=5'b01110
+	REG15=5'b01111
+   Generated name = lm8_core_Z2_layer1
+
+@N: CG179 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v":350:28:350:36|Removing redundant assignment
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":24:7:24:27|Synthesizing module pmi_distributed_dpram
+
+	pmi_addr_depth=32'b00000000000000000000000000100000
+	pmi_addr_width=32'b00000000000000000000000000000101
+	pmi_data_width=32'b00000000000000000000000000001000
+	pmi_regmode=40'b0110111001101111011100100110010101100111
+	pmi_init_file=32'b01101110011011110110111001100101
+	pmi_init_file_format=48'b011000100110100101101110011000010111001001111001
+	pmi_family=56'b01001101011000010110001101101000010110000100111100110010
+	module_type=168'b011100000110110101101001010111110110010001101001011100110111010001110010011010010110001001110101011101000110010101100100010111110110010001110000011100100110000101101101
+   Generated name = pmi_distributed_dpram_32s_5s_8s_noreg_none_binary_MachXO2_pmi_distributed_dpram_3_layer1
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v":114:31:114:39|No assignment to page_ptr2
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v":114:42:114:50|No assignment to page_ptr3
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":50:7:50:9|Synthesizing module lm8
+
+	LATTICE_FAMILY=56'b01001101011000010110001101101000010110000100111100110010
+	CFG_ROM_EN=32'b00000000000000000000000000000000
+	CFG_ROM_BASE_ADDRESS=32'b00000000000000000000000000000000
+	I_CFG_XIP=32'b00000000000000000000000000000000
+	CFG_PROM_INIT_FILE=672'b010000110011101000101111010101010111001101100101011100100111001100101111010000010110111001100100011100100110010101110111010100000100001100110001001011110100010001101111011000110111010101101101011001010110111001110100011100110010111101000111011010010111010001001000011101010110001000101111011100110111100101101110011000110101111101100011011011110110111001110100011100100110111101101100011011000110010101110010001011110111001101101111011001100111010001110111011000010111001001100101001011110111010101100001011100100111010001011111011101000110010101110011011101000010111101110000011100100110111101101101010111110110100101101110011010010111010000101110011011010110010101101101
+	CFG_PROM_INIT_FILE_FORMAT=24'b011010000110010101111000
+	CFG_PROM_SIZE=32'b00000000000000000000100000000000
+	CFG_PROM_BASE_ADDRESS=32'b00000000000000000000000000000000
+	CFG_SP_INIT_FILE=720'b010000110011101000101111010101010111001101100101011100100111001100101111010000010110111001100100011100100110010101110111010100000100001100110001001011110100010001101111011000110111010101101101011001010110111001110100011100110010111101000111011010010111010001001000011101010110001000101111011100110111100101101110011000110101111101100011011011110110111001110100011100100110111101101100011011000110010101110010001011110111001101101111011001100111010001110111011000010111001001100101001011110111010101100001011100100111010001011111011101000110010101110011011101000010111101110011011000110111001001100001011101000110001101101000011100000110000101100100010111110110100101101110011010010111010000101110011011010110010101101101
+	CFG_SP_INIT_FILE_FORMAT=24'b011010000110010101111000
+	SP_PORT_ENABLE=32'b00000000000000000000000000000001
+	SP_SIZE=32'b00000000000000000000100000000000
+	SP_BASE_ADDRESS=32'b00000000000000000000000000000000
+	CFG_IO_BASE_ADDRESS=32'b10000000000000000000000000000000
+	CFG_EXT_SIZE_8=32'b00000000000000000000000000000000
+	CFG_EXT_SIZE_16=32'b00000000000000000000000000000001
+	CFG_EXT_SIZE_32=32'b00000000000000000000000000000000
+	CFG_REGISTER_16=32'b00000000000000000000000000000000
+	CFG_REGISTER_32=32'b00000000000000000000000000000001
+	CFG_CALL_STACK_8=32'b00000000000000000000000000000000
+	CFG_CALL_STACK_16=32'b00000000000000000000000000000001
+	CFG_CALL_STACK_32=32'b00000000000000000000000000000000
+	INTERRUPTS=32'b00000000000000000000000000001000
+	CFG_EXT_SIZE=32'b00000000000000000000000000010000
+	CFG_CALL_STACK=32'b00000000000000000000000000010000
+	PROM_AW=32'b00000000000000000000000000001011
+	ALIGN_PROM_ROM_BASE=32'b00000000000000000000000000000000
+	SP_AW=32'b00000000000000000000000000001011
+	ALIGN_SP_BASE=32'b00000000000000000000000000000000
+	ALIGN_SP_ROM_BASE=32'b00000000000000000001100000000000
+	ALIGN_IO_BASE=32'b10000000000000000000000000000000
+	PGM_STACK_AW=32'b00000000000000000000000000000100
+	INTERNAL_SP_CHECK=32'b00000000000000000000000000000000
+   Generated name = lm8_Z4_layer1
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":115:7:115:16|Synthesizing module pmi_ram_dq
+
+	pmi_addr_depth=32'b00000000000000000000100000000000
+	pmi_addr_width=32'b00000000000000000000000000001011
+	pmi_data_width=32'b00000000000000000000000000010010
+	pmi_regmode=40'b0110111001101111011100100110010101100111
+	pmi_gsr=56'b01100100011010010111001101100001011000100110110001100101
+	pmi_resetmode=40'b0110000101110011011110010110111001100011
+	pmi_optimization=40'b0111001101110000011001010110010101100100
+	pmi_init_file=672'b010000110011101000101111010101010111001101100101011100100111001100101111010000010110111001100100011100100110010101110111010100000100001100110001001011110100010001101111011000110111010101101101011001010110111001110100011100110010111101000111011010010111010001001000011101010110001000101111011100110111100101101110011000110101111101100011011011110110111001110100011100100110111101101100011011000110010101110010001011110111001101101111011001100111010001110111011000010111001001100101001011110111010101100001011100100111010001011111011101000110010101110011011101000010111101110000011100100110111101101101010111110110100101101110011010010111010000101110011011010110010101101101
+	pmi_init_file_format=24'b011010000110010101111000
+	pmi_write_mode=48'b011011100110111101110010011011010110000101101100
+	pmi_family=56'b01001101011000010110001101101000010110000100111100110010
+	module_type=80'b01110000011011010110100101011111011100100110000101101101010111110110010001110001
+   Generated name = pmi_ram_dq_Z5_layer1
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":360:25:360:39|No assignment to first_fetch_nxt
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\pmi_def.v":115:7:115:16|Synthesizing module pmi_ram_dq
+
+	pmi_addr_depth=32'b00000000000000000000100000000000
+	pmi_addr_width=32'b00000000000000000000000000001011
+	pmi_data_width=32'b00000000000000000000000000001000
+	pmi_regmode=40'b0110111001101111011100100110010101100111
+	pmi_gsr=56'b01100100011010010111001101100001011000100110110001100101
+	pmi_resetmode=40'b0110000101110011011110010110111001100011
+	pmi_optimization=40'b0111001101110000011001010110010101100100
+	pmi_init_file=720'b010000110011101000101111010101010111001101100101011100100111001100101111010000010110111001100100011100100110010101110111010100000100001100110001001011110100010001101111011000110111010101101101011001010110111001110100011100110010111101000111011010010111010001001000011101010110001000101111011100110111100101101110011000110101111101100011011011110110111001110100011100100110111101101100011011000110010101110010001011110111001101101111011001100111010001110111011000010111001001100101001011110111010101100001011100100111010001011111011101000110010101110011011101000010111101110011011000110111001001100001011101000110001101101000011100000110000101100100010111110110100101101110011010010111010000101110011011010110010101101101
+	pmi_init_file_format=24'b011010000110010101111000
+	pmi_write_mode=48'b011011100110111101110010011011010110000101101100
+	pmi_family=56'b01001101011000010110001101101000010110000100111100110010
+	module_type=80'b01110000011011010110100101011111011100100110000101101101010111110110010001110001
+   Generated name = pmi_ram_dq_Z6_layer1
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":84:15:84:21|No assignment to I_CYC_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":85:15:85:21|No assignment to I_STB_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":86:21:86:27|No assignment to I_CTI_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":87:21:87:27|No assignment to I_BTE_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":88:15:88:20|No assignment to I_WE_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":89:15:89:21|No assignment to I_SEL_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":90:21:90:27|No assignment to I_DAT_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":91:22:91:28|No assignment to I_ADR_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":92:15:92:22|No assignment to I_LOCK_O
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":208:23:208:32|No assignment to prom_waddr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":208:35:208:44|No assignment to prom_raddr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":209:22:209:31|No assignment to prom_wdata
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":211:23:211:30|No assignment to sp_waddr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":211:33:211:40|No assignment to sp_raddr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":212:21:212:28|No assignment to sp_wdata
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":223:23:223:34|No assignment to prom_wb_addr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":223:37:223:52|No assignment to prom_wb_addr_nxt
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":224:22:224:34|No assignment to prom_wb_instr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":224:37:224:53|No assignment to prom_wb_instr_nxt
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":225:21:225:33|No assignment to prom_wb_state
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":225:36:225:52|No assignment to prom_wb_state_nxt
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":409:14:409:20|No assignment to ext_din
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":411:14:411:23|No assignment to sp_rd_addr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":411:26:411:39|No assignment to sp_rd_addr_nxt
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":640:40:640:49|No assignment to wire core_start
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":641:8:641:21|No assignment to prom_copy_done
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":641:24:641:41|No assignment to prom_copy_done_nxt
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":642:8:642:19|No assignment to sp_copy_done
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":642:22:642:37|No assignment to sp_copy_done_nxt
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":77:7:77:10|Synthesizing module gpio
+
+	GPIO_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	GPIO_WB_ADR_WIDTH=32'b00000000000000000000000000000100
+	DATA_WIDTH=32'b00000000000000000000000000000100
+	INPUT_WIDTH=32'b00000000000000000000000000000001
+	OUTPUT_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	INPUT_PORTS_ONLY=32'b00000000000000000000000000000000
+	OUTPUT_PORTS_ONLY=32'b00000000000000000000000000000001
+	BOTH_INPUT_AND_OUTPUT=32'b00000000000000000000000000000000
+	TRISTATE_PORTS=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = gpio_Z7_layer1
+
+@N: CG364 :"C:\lscc\diamond\2.1_x64\cae_library\synthesis\verilog\machxo2.v":82:7:82:8|Synthesizing module BB
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":63:7:63:13|Synthesizing module TRI_PIO
+
+	DATA_WIDTH=32'b00000000000000000000000000000001
+	IRQ_MODE=32'b00000000000000000000000000000000
+	LEVEL=32'b00000000000000000000000000000000
+	EDGE=32'b00000000000000000000000000000001
+	POSE_EDGE_IRQ=32'b00000000000000000000000000000001
+	NEGE_EDGE_IRQ=32'b00000000000000000000000000000000
+	EITHER_EDGE_IRQ=32'b00000000000000000000000000000000
+	UDLY=32'b00000000000000000000000000000001
+   Generated name = TRI_PIO_1s_0s_0s_1s_1s_0s_0s_1s
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":106:9:106:16|No assignment to IRQ_MASK
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":107:9:107:16|No assignment to IRQ_TEMP
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":108:9:108:20|No assignment to EDGE_CAPTURE
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":109:9:109:20|No assignment to PIO_DATA_DLY
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":121:30:121:41|No assignment to wire PIO_BOTH_OUT
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":142:26:142:34|No assignment to PIO_DATAO
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":143:26:143:34|No assignment to PIO_DATAI
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":164:26:164:33|No assignment to IRQ_MASK
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":165:26:165:38|No assignment to IRQ_MASK_BOTH
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":166:26:166:33|No assignment to IRQ_TEMP
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":167:26:167:38|No assignment to IRQ_TEMP_BOTH
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":168:26:168:37|No assignment to EDGE_CAPTURE
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":169:26:169:42|No assignment to EDGE_CAPTURE_BOTH
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":170:26:170:37|No assignment to PIO_DATA_DLY
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":171:26:171:42|No assignment to PIO_DATA_DLY_BOTH
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":259:15:259:21|No assignment to jpd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":270:15:270:21|No assignment to kpd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":281:15:281:21|No assignment to lpd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":387:12:387:19|No assignment to iopd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":397:15:397:22|No assignment to jopd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":408:15:408:22|No assignment to kopd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":419:15:419:22|No assignment to lopd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":429:12:429:19|No assignment to mopd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":439:15:439:22|No assignment to nopd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":450:15:450:22|No assignment to oopd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":461:15:461:22|No assignment to popd_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":669:12:669:14|No assignment to jti
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":697:12:697:14|No assignment to kti
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":725:12:725:14|No assignment to lti
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1109:12:1109:17|No assignment to im_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1119:15:1119:20|No assignment to jm_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1130:15:1130:20|No assignment to km_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1141:15:1141:20|No assignment to lm_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1152:12:1152:18|No assignment to imb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1162:15:1162:21|No assignment to jmb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1173:15:1173:21|No assignment to kmb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1184:15:1184:21|No assignment to lmb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1437:19:1437:19|No assignment to i
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1461:22:1461:22|No assignment to j
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1486:22:1486:22|No assignment to k
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1511:22:1511:22|No assignment to l
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1603:12:1603:19|No assignment to iitb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1615:15:1615:22|No assignment to jitb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1628:15:1628:22|No assignment to kitb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1641:15:1641:22|No assignment to litb_idx
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1770:12:1770:17|No assignment to i_both
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1793:15:1793:20|No assignment to j_both
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1817:15:1817:20|No assignment to k_both
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":1841:15:1841:20|No assignment to l_both
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":319:7:319:13|Synthesizing module intface
+
+	CLK_IN_MHZ=72'b001101100011011000101110001101010011000000110000001100000011000000110000
+	UART_WB_ADR_WIDTH=32'b00000000000000000000000000000100
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	BAUD_RATE=32'b00000000000000011100001000000000
+	FIFO=32'b00000000000000000000000000000000
+	LCR_DATA_BITS=32'b00000000000000000000000000001000
+	LCR_STOP_BITS=32'b00000000000000000000000000000001
+	LCR_PARITY_ENABLE=32'b00000000000000000000000000000000
+	LCR_PARITY_ODD=32'b00000000000000000000000000000000
+	LCR_PARITY_STICK=32'b00000000000000000000000000000000
+	LCR_SET_BREAK=32'b00000000000000000000000000000000
+	STDOUT_SIM=32'b00000000000000000000000000000000
+	STDOUT_SIMFAST=32'b00000000000000000000000000000000
+	A_RBR=4'b0000
+	A_THR=4'b0000
+	A_IER=4'b0001
+	A_IIR=4'b0010
+	A_LCR=4'b0011
+	A_LSR=4'b0101
+	A_DIV=3'b100
+	idle=3'b000
+	int0=3'b001
+	int1=3'b010
+	int2=3'b011
+	int3=3'b100
+   Generated name = intface_Z8_layer1
+
+@W: CG813 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":500:21:500:54|Rounding real from 577.256944 to 577 (simulation mismatch possible)
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":381:11:381:24|No assignment to wire fifo_empty_thr
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":382:8:382:20|No assignment to wire fifo_full_thr
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":435:32:435:39|No assignment to wire thr_fifo
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":465:13:465:31|No assignment to iir_rd_strobe_delay
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":468:13:468:18|No assignment to lsr2_r
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":468:21:468:26|No assignment to lsr3_r
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":468:29:468:34|No assignment to lsr4_r
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":490:13:490:32|No assignment to wire fifo_almost_full_thr
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":491:13:491:33|No assignment to wire fifo_almost_empty_thr
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":492:19:492:30|No assignment to wire fifo_din_thr
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":493:13:493:23|No assignment to fifo_wr_thr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":494:13:494:25|No assignment to fifo_wr_q_thr
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":495:13:495:29|No assignment to wire fifo_wr_pulse_thr
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":94:7:94:12|Synthesizing module rxcver
+
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	FIFO=32'b00000000000000000000000000000000
+	idle=3'b000
+	shift=3'b001
+	parity=3'b010
+	stop=3'b011
+	idle1=3'b100
+	lat_family=56'b01001101011000010110001101101000010110000100111100110010
+   Generated name = rxcver_8s_0s_0_1_2_3_4_MachXO2
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|No assignment to wire rbr_fifo
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":141:27:141:36|No assignment to wire fifo_empty
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":142:27:142:42|No assignment to wire fifo_almost_full
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":151:25:151:29|No assignment to count
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":163:13:163:20|No assignment to rxclk_en
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":166:26:166:39|No assignment to wire rbr_fifo_error
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":181:16:181:24|No assignment to wire fifo_full
+
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":184:16:184:32|No assignment to wire fifo_almost_empty
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":185:16:185:23|No assignment to fifo_din
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":186:16:186:22|No assignment to fifo_wr
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":187:16:187:24|No assignment to fifo_wr_q
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":188:16:188:28|No assignment to wire fifo_wr_pulse
+
+@N: CL177 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":472:3:472:8|Sharing sequential element sin_d0_delay.
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":103:7:103:12|Synthesizing module txmitt
+
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	FIFO=32'b00000000000000000000000000000000
+	start=3'b000
+	shift=3'b001
+	parity=3'b010
+	stop_1bit=3'b011
+	stop_2bit=3'b100
+	stop_halfbit=3'b101
+	start1=3'b110
+   Generated name = txmitt_8s_0s_0_1_2_3_4_5_6
+
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":150:27:150:39|No assignment to tx_in_start_s
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":155:27:155:35|No assignment to txclk_ena
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":156:27:156:35|No assignment to txclk_enb
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":158:27:158:33|No assignment to count_v
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":159:27:159:36|No assignment to thr_rd_int
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":160:27:160:38|No assignment to thr_rd_delay
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":161:27:161:35|No assignment to last_word
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\uart_core.v":128:7:128:15|Synthesizing module uart_core
+
+	CLK_IN_MHZ=72'b001101100011011000101110001101010011000000110000001100000011000000110000
+	UART_WB_ADR_WIDTH=32'b00000000000000000000000000000100
+	UART_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+	BAUD_RATE=32'b00000000000000011100001000000000
+	FIFO=32'b00000000000000000000000000000000
+	LCR_DATA_BITS=32'b00000000000000000000000000001000
+	LCR_STOP_BITS=32'b00000000000000000000000000000001
+	LCR_PARITY_ENABLE=32'b00000000000000000000000000000000
+	LCR_PARITY_ODD=32'b00000000000000000000000000000000
+	LCR_PARITY_STICK=32'b00000000000000000000000000000000
+	LCR_SET_BREAK=32'b00000000000000000000000000000000
+	STDOUT_SIM=32'b00000000000000000000000000000000
+	STDOUT_SIMFAST=32'b00000000000000000000000000000000
+   Generated name = uart_core_Z9_layer1
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\passthru.v":52:7:52:14|Synthesizing module passthru
+
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":52:7:52:20|Synthesizing module slave_passthru
+
+	S_WB_ADR_WIDTH=32'b00000000000000000000000000100000
+	S_WB_DAT_WIDTH=32'b00000000000000000000000000001000
+   Generated name = slave_passthru_32s_8s
+
+@W: CS263 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":101:24:101:30|Port-width mismatch for port S_DAT_I. Formal has width 32, Actual 8
+@W: CS263 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":103:24:103:30|Port-width mismatch for port S_SEL_I. Formal has width 4, Actual 1
+@W: CS263 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":119:31:119:44|Port-width mismatch for port slv_slave_data. Formal has width 32, Actual 8
+@W: CS263 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":109:24:109:30|Port-width mismatch for port S_DAT_O. Formal has width 32, Actual 8
+@W: CS263 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":118:32:118:46|Port-width mismatch for port slv_master_data. Formal has width 32, Actual 8
+@W: CS263 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/slave_passthru/rtl/verilog\slave_passthru.v":125:24:125:30|Port-width mismatch for port slv_sel. Formal has width 4, Actual 1
+@N: CG364 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":335:7:335:21|Synthesizing module sync_controller
+
+@W: CG781 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":603:1:603:3|Undriven input PIO_IN on instance LED, tying to 0
+@W: CG781 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":603:1:603:3|Undriven input PIO_BOTH_IN on instance LED, tying to 0
+@W: CS263 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":695:9:695:29|Port-width mismatch for port slv_sel. Formal has width 1, Actual 4
+@W: CG133 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":358:7:358:7|No assignment to i
+@W: CG360 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":374:5:374:16|No assignment to wire SHAREDBUS_en
+
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\uart_core.v":152:10:152:20|Input UART_LOCK_I is unused
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":333:3:333:8|Trying to extract state machine for register genblk2.genblk1.tx_state
+Extracted state machine for register genblk2.genblk1.tx_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":135:27:135:40|Input fifo_empty_thr is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":136:15:136:27|Input fifo_full_thr is unused
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":315:3:315:8|Trying to extract state machine for register cs_state
+Extracted state machine for register cs_state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL157 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|*Output rbr_fifo has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":141:27:141:36|*Output fifo_empty has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":142:27:142:42|*Output fifo_almost_full has undriven bits -- simulation mismatch possible.
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":873:2:873:7|Trying to extract state machine for register genblk22.cs_state
+Extracted state machine for register genblk22.cs_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@W: CL157 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":381:11:381:24|*Output fifo_empty_thr has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":382:8:382:20|*Output fifo_full_thr has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":342:16:342:20|Input cti_i is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":343:16:343:20|Input bte_i is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":346:10:346:14|Input sel_i is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":354:34:354:41|Input rbr_fifo is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":380:10:380:19|Input fifo_empty is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":383:10:383:15|Input thr_rd is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":384:10:384:25|Input fifo_almost_full is unused
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":106:9:106:16|*Unassigned bits of IRQ_MASK are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":95:10:95:23|Input IRQ_MASK_WR_EN is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":96:10:96:23|Input EDGE_CAP_WR_EN is unused
+@W: CL246 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":108:34:108:43|Input port bits 7 to 4 of GPIO_DAT_I[7:0] are unused
+
+@W: CL157 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":121:30:121:41|*Output PIO_BOTH_OUT has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":101:10:101:19|Input GPIO_CYC_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":104:10:104:20|Input GPIO_LOCK_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":105:16:105:25|Input GPIO_CTI_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":106:16:106:25|Input GPIO_BTE_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":109:36:109:45|Input GPIO_SEL_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":118:27:118:32|Input PIO_IN is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":119:28:119:38|Input PIO_BOTH_IN is unused
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":84:15:84:21|*Unassigned bits of I_CYC_O are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":85:15:85:21|*Unassigned bits of I_STB_O are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":86:21:86:27|*Unassigned bits of I_CTI_O[2:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":87:21:87:27|*Unassigned bits of I_BTE_O[1:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":88:15:88:20|*Unassigned bits of I_WE_O are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":89:15:89:21|*Unassigned bits of I_SEL_O are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":90:21:90:27|*Unassigned bits of I_DAT_O[7:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":91:22:91:28|*Unassigned bits of I_ADR_O[31:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":92:15:92:22|*Unassigned bits of I_LOCK_O are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":80:10:80:16|Input I_ACK_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":81:10:81:16|Input I_ERR_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":82:10:82:16|Input I_RTY_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":83:16:83:22|Input I_DAT_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":95:10:95:16|Input D_ERR_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":96:10:96:16|Input D_RTY_I is unused
+@W: CL159 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":72:10:72:19|Input prom_ready is unused
+@W: CL246 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_alu.v":52:17:52:21|Input port bits 13 to 2 of instr[17:0] are unused
+
+@N: CL201 :"C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\soc\sync_controller.v":246:0:246:5|Trying to extract state machine for register selected
+Extracted state machine for register selected
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10

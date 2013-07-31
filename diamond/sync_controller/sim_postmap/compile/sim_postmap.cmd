@@ -1,0 +1,1 @@
+-w -s "C:\lscc\diamond\2.0\examples\sync_controller\sim_postmap\library.cfg"  -j "C:\lscc\diamond\2.0\examples\sync_controller\sim_postmap\projlib.cfg"  -d "C:\lscc\diamond\2.0\examples\sync_controller\sim_postmap\compile"   -work work  -dbg -e 100 "C:\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sync_controller_wb_wrapper_TB.vhd"

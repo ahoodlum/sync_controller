@@ -1,0 +1,18 @@
+#
+# Logical Preferences generated for Lattice by Synplify maplat201209latp1, Build 002R.
+#
+
+# Period Constraints
+FREQUENCY NET "clk_div/clk_out_div512_c" 1.0 MHz;
+FREQUENCY NET "clk_i_c" 1.0 MHz;
+# Output Constraints
+# Input Constraints
+# Point-to-point Delay Constraints 
+
+MULTICYCLE FROM CLKNET "clk_out_div512_c"  TO CLKNET "clk_out_div512_c"  2X;
+
+
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

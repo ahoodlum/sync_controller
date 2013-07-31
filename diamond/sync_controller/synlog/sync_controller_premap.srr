@@ -1,0 +1,53 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat201209latp1, Build 002R, Built Dec 20 2012 02:21:53
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09L-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@L: C:\lscc\diamond\2.0\examples\sync_controller\sync_controller_scck.rpt 
+Printing clock  summary report in "C:\lscc\diamond\2.0\examples\sync_controller\sync_controller_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 106MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 108MB)
+
+@W: BN288 :"c:\lscc\diamond\2.0\examples\..\..\..\..\users\andrewpc1\documents\work\fpga\sync_controller\one_shot_counter.vhd":29:2:29:5|Register next_state[0] with set has an initial value of 0. Ignoring initial value.  
+@W: BN288 :"c:\lscc\diamond\2.0\examples\..\..\..\..\users\andrewpc1\documents\work\fpga\sync_controller\one_shot_counter.vhd":29:2:29:5|Register next_state[1] with set has an initial value of 0. Ignoring initial value.  
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+
+
+Clock Summary
+**************
+
+Start                                      Requested     Requested     Clock        Clock                
+Clock                                      Frequency     Period        Type         Group                
+---------------------------------------------------------------------------------------------------------
+sync_controller_wb_wrapper|CLK_I           1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0
+sync_controller_wb_wrapper|clk_counter     337.2 MHz     2.966         inferred     Autoconstr_clkgroup_1
+sync_controller_wb_wrapper|sync_in         784.3 MHz     1.275         inferred     Autoconstr_clkgroup_2
+=========================================================================================================
+
+@W: MT529 :"c:\users\andrewpc1\documents\work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":70:3:70:4|Found inferred clock sync_controller_wb_wrapper|CLK_I which controls 8 sequential elements including Q[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\lscc\diamond\2.0\examples\..\..\..\..\users\andrewpc1\documents\work\fpga\sync_controller\one_shot_counter.vhd":51:2:51:3|Found inferred clock sync_controller_wb_wrapper|clk_counter which controls 34 sequential elements including counter1.state[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\lscc\diamond\2.0\examples\..\..\..\..\users\andrewpc1\documents\work\fpga\sync_controller\async_ff.vhd":17:2:17:3|Found inferred clock sync_controller_wb_wrapper|sync_in which controls 3 sequential elements including ff1.q. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=26  set on top level netlist sync_controller_wb_wrapper
+@N: MF122 |Added probe ff_clr_i on ff_clr_i in sync_controller_wb_wrapper 
+@N: MF124 |Total 1 probes and 0 pads inserted. 
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 29 21:39:19 2013
+
+###########################################################]

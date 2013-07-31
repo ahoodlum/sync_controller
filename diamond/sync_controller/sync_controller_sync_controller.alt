@@ -1,0 +1,21 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Jul 30 23:00:08 2013 *
+NOTE DESIGN NAME: sync_controller_top *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS uart_sout : 74 : out *
+NOTE PINS uart_sin : 73 : in *
+NOTE PINS sync_out : 142 : out *
+NOTE PINS sync_in : 143 : in *
+NOTE PINS rst : 127 : in *
+NOTE PINS led_wb_out[3] : 42 : out *
+NOTE PINS led_wb_out[2] : 44 : out *
+NOTE PINS led_wb_out[1] : 45 : out *
+NOTE PINS led_wb_out[0] : 43 : out *
+NOTE PINS led_pio_out[3] : 47 : out *
+NOTE PINS led_pio_out[2] : 50 : out *
+NOTE PINS led_pio_out[1] : 49 : out *
+NOTE PINS led_pio_out[0] : 48 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

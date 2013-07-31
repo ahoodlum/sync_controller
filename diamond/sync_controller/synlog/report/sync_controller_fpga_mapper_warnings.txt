@@ -1,0 +1,6 @@
+@W: FO107 :"c:\lscc\diamond\2.0\examples\..\..\..\..\users\andrewpc1\documents\work\fpga\sync_controller\one_shot_counter.vhd":29:2:29:5|Set/reset flip-flops require model for Lucent Place-and-Route.
+@W: MT453 |clock period is too long for clock sync_controller_wb_wrapper|clk_counter, changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock sync_controller_wb_wrapper|sync_in, changing period from 10000000.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 5000000.0 ns to 10000.0 ns. 
+@W: MT420 |Found inferred clock sync_controller_wb_wrapper|sync_in with period 2.83ns. Please declare a user-defined clock on object "p:sync_in"
+@W: MT420 |Found inferred clock sync_controller_wb_wrapper|clk_counter with period 5.36ns. Please declare a user-defined clock on object "p:clk_counter"
+@W: MT420 |Found inferred clock sync_controller_wb_wrapper|CLK_I with period 1000.00ns. Please declare a user-defined clock on object "p:CLK_I"

@@ -1,0 +1,250 @@
+---------------------------------------------------
+Report for cell sync_controller_top
+   Instance path: sync_controller_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     383.00        100.0
+                                 IOLGC	       6.00        100.0
+                                  LUT4	     545.00        100.0
+                               DISTRAM	      36.00        100.0
+                                 IOREG	          6        100.0
+                                 IOBUF	         13        100.0
+                                PFUREG	        301        100.0
+                                RIPPLE	         68        100.0
+                                   EBR	          6        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+            sync_controller_wb_wrapper	          1         7.6
+                       sync_controller	          1        90.3
+                     clock_divider_512	          1         1.8
+---------------------------------------------------
+Report for cell sync_controller
+   Instance path: sync_controller_top/lm8_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     346.00        90.3
+                                  LUT4	     533.00        97.8
+                               DISTRAM	      35.00        97.2
+                                PFUREG	        249        82.7
+                                RIPPLE	         37        54.4
+                                   EBR	          6        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   uart_core_Z9_layer1	          1        35.4
+                         lm8_Z4_layer1	          1        51.2
+                        gpio_Z7_layer1	          1         0.4
+                  arbiter2_8s_8s_8s_8s	          1         2.8
+---------------------------------------------------
+Report for cell uart_core_Z9_layer1
+   Instance path: sync_controller_top/lm8_inst/uart
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     135.58        35.4
+                                  LUT4	     213.00        39.1
+                                PFUREG	        144        47.8
+                                RIPPLE	         23        33.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+            txmitt_8s_0s_0_1_2_3_4_5_6	          1        10.9
+        rxcver_8s_0s_0_1_2_3_4_MachXO2	          1        16.4
+                     intface_Z8_layer1	          1         8.1
+---------------------------------------------------
+Report for cell txmitt_8s_0s_0_1_2_3_4_5_6
+   Instance path: sync_controller_top/lm8_inst/uart/u_txmitt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.67        10.9
+                                  LUT4	      63.00        11.6
+                                PFUREG	         42        14.0
+                                RIPPLE	          9        13.2
+---------------------------------------------------
+Report for cell rxcver_8s_0s_0_1_2_3_4_MachXO2
+   Instance path: sync_controller_top/lm8_inst/uart/u_rxcver
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      62.75        16.4
+                                  LUT4	      94.00        17.2
+                                PFUREG	         55        18.3
+                                RIPPLE	         14        20.6
+---------------------------------------------------
+Report for cell intface_Z8_layer1
+   Instance path: sync_controller_top/lm8_inst/uart/u_intface
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.17         8.1
+                                  LUT4	      56.00        10.3
+                                PFUREG	         47        15.6
+---------------------------------------------------
+Report for cell gpio_Z7_layer1
+   Instance path: sync_controller_top/lm8_inst/LED
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.67         0.4
+                                  LUT4	       3.00         0.6
+                                PFUREG	          1         0.3
+---------------------------------------------------
+Report for cell lm8_Z4_layer1
+   Instance path: sync_controller_top/lm8_inst/LM8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     196.08        51.2
+                                  LUT4	     285.00        52.3
+                               DISTRAM	      35.00        97.2
+                                PFUREG	        100        33.2
+                                RIPPLE	         14        20.6
+                                   EBR	          6        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dqMnhscratchpad_initsadn8112048p15f8c96c	          1         0.0
+pmi_ram_dqMnhprom_initsadn18112048p15ab0c05	          1         3.2
+                    lm8_core_Z2_layer1	          1        43.7
+---------------------------------------------------
+Report for cell lm8_core_Z2_layer1
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     167.42        43.7
+                                  LUT4	     233.00        42.8
+                               DISTRAM	      35.00        97.2
+                                PFUREG	         86        28.6
+                                RIPPLE	         14        20.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_distributed_dpramMbnonen8532pb79b48d	          1         3.9
+pmi_distributed_dpramMbnonen8532pb79b48d_0	          1         3.8
+                      lm8_interrupt_8s	          1         1.8
+                           lm8_io_cntl	          1         2.5
+   lm8_flow_cntl_4s_16s_0s_11s_MachXO2	          1        16.5
+                          lm8_idec_11s	          1         3.0
+                       lm8_alu_MachXO2	          1         6.8
+---------------------------------------------------
+Report for cell lm8_interrupt_8s
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/u1_lm8_interrupt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.08         1.8
+                                  LUT4	      11.00         2.0
+                                PFUREG	         10         3.3
+---------------------------------------------------
+Report for cell lm8_io_cntl
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/u1_lm8_cntl_u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50         2.5
+                                  LUT4	      12.50         2.3
+                                PFUREG	         20         6.6
+---------------------------------------------------
+Report for cell lm8_flow_cntl_4s_16s_0s_11s_MachXO2
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/u1_lm8_flow_cntl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      63.08        16.5
+                                  LUT4	      79.50        14.6
+                               DISTRAM	      11.00        30.6
+                                PFUREG	         38        12.6
+                                RIPPLE	          9        13.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_distributed_spramMbnonen13416pb8bdb14	          1         2.7
+---------------------------------------------------
+Report for cell pmi_distributed_spramMbnonen13416pb8bdb14
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/u1_lm8_flow_cntl/u1_lm8_stkmem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.50         2.7
+                               DISTRAM	      11.00        30.6
+---------------------------------------------------
+Report for cell lm8_alu_MachXO2
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/u1_lm8_alu
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00         6.8
+                                  LUT4	      46.00         8.4
+                                RIPPLE	          5         7.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                pmi_addsubMo88p635b79e	          1         1.4
+---------------------------------------------------
+Report for cell pmi_addsubMo88p635b79e
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/u1_lm8_alu/u1_addsub8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.50         1.4
+                                  LUT4	       1.00         0.2
+                                RIPPLE	          5         7.4
+---------------------------------------------------
+Report for cell lm8_idec_11s
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/u1_lm8_idec
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.50         3.0
+                                  LUT4	      26.50         4.9
+---------------------------------------------------
+Report for cell pmi_distributed_dpramMbnonen8532pb79b48d_0
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/genblk7.u1_lm8_rfmem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.50         3.8
+                                  LUT4	       9.00         1.7
+                               DISTRAM	      12.00        33.3
+---------------------------------------------------
+Report for cell pmi_distributed_dpramMbnonen8532pb79b48d
+   Instance path: sync_controller_top/lm8_inst/LM8/u1_isp8_core/genblk7.u2_lm8_rfmem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.75         3.9
+                                  LUT4	       9.50         1.7
+                               DISTRAM	      12.00        33.3
+---------------------------------------------------
+Report for cell pmi_ram_dqMnhprom_initsadn18112048p15ab0c05
+   Instance path: sync_controller_top/lm8_inst/LM8/genblk1.genblk2.u1_isp8_prom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.08         3.2
+                                  LUT4	      24.50         4.5
+                                PFUREG	          1         0.3
+                                   EBR	          4        66.7
+---------------------------------------------------
+Report for cell pmi_ram_dqMnhscratchpad_initsadn8112048p15f8c96c
+   Instance path: sync_controller_top/lm8_inst/LM8/genblk4.u1_scratchpad
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        33.3
+---------------------------------------------------
+Report for cell arbiter2_8s_8s_8s_8s
+   Instance path: sync_controller_top/lm8_inst/arbiter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.67         2.8
+                                  LUT4	      29.00         5.3
+                                PFUREG	          1         0.3
+---------------------------------------------------
+Report for cell sync_controller_wb_wrapper
+   Instance path: sync_controller_top/wb_sync_wrapper
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.00         7.6
+                                  LUT4	       7.00         1.3
+                                PFUREG	         43        14.3
+                                RIPPLE	         26        38.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   sio	          1         6.8
+---------------------------------------------------
+Report for cell sio
+   Instance path: sync_controller_top/wb_sync_wrapper/triggered_counter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.17         6.8
+                                  LUT4	       6.00         1.1
+                                PFUREG	         35        11.6
+                                RIPPLE	         26        38.2
+---------------------------------------------------
+Report for cell clock_divider_512
+   Instance path: sync_controller_top/clk_div
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.00         1.8
+                                  LUT4	       4.00         0.7
+                                PFUREG	          9         3.0
+                                RIPPLE	          5         7.4

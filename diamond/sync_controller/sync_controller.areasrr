@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Report for cell sync_controller_wb_wrapper.behavioral
+
+Register bits: 47 of 6864 (1%)
+Latch bits:      2
+PIC Latch:       0
+I/O cells:       29
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       45       100.0
+                             FD1S1D        2       100.0
+                            FD1S3AX       34       100.0
+                            FD1S3BX        2       100.0
+                            FD1S3DX        2       100.0
+                                GSR        1       100.0
+                                 IB       14       100.0
+                           IFS1P3IX        8       100.0
+                                 OB       15       100.0
+                           OFS1P3DX        1       100.0
+                           ORCALUT4       42       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                   one_shot_counter        1       100.0
+                            
+                         TOTAL           172           
+----------------------------------------------------------------------
+Report for cell one_shot_counter.netlist
+     Instance path:  counter1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       45       100.0
+                             FD1S1D        2       100.0
+                            FD1S3AX       34       100.0
+                            FD1S3BX        2       100.0
+                            FD1S3DX        2       100.0
+                           ORCALUT4       41        97.6
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL           128           

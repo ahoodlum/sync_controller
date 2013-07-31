@@ -1,0 +1,21 @@
+[Files List]
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\std\src\standard.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\std\src\textio.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\std_logic_1164.vhdl=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\std_logic_1164-body.vhdl=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\arith_p.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\arith_b.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\timing_p_2000.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\timing_b_2000.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\machxo2\src\MACHXO2COMP.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\prmtvs_p_2000.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\prmtvs_b_2000.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\machxo2\src\MACHXO2_SEQ.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\unsigned_p.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\ieee\src\unsigned_b.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\machxo2\src\MACHXO2_MEM.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\machxo2\src\MACHXO2_CMB.vhd=S
+C:\lscc\diamond\2.0\examples\sync_controller\sync_controller_sync_controller_mapvho.vho=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\machxo2\src\MACHXO2_IO.vhd=S
+C:\lscc\diamond\2.1_x64\active-hdl\vlib\machxo2\src\MACHXO2_MISC.vhd=S
+C:\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sio_TB.vhd=S

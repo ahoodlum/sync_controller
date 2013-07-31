@@ -1,0 +1,685 @@
+Synopsys Lattice Technology Mapper, Version maplat201209latp1, Build 002R, Built Dec 20 2012 02:21:53
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09L-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 106MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 108MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\gpio.v":121:30:121:41|Tristate driver PIO_BOTH_OUT_1 on net PIO_BOTH_OUT_1 has its enable tied to GND (module gpio_Z7_layer1) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":382:8:382:20|Tristate driver fifo_full_thr on net fifo_full_thr has its enable tied to GND (module intface_Z8_layer1) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\intface.v":381:11:381:24|Tristate driver fifo_empty_thr on net fifo_empty_thr has its enable tied to GND (module intface_Z8_layer1) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":142:27:142:42|Tristate driver fifo_almost_full on net fifo_almost_full has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":141:27:141:36|Tristate driver fifo_empty on net fifo_empty has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_1 on net rbr_fifo_1 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_2 on net rbr_fifo_2 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_3 on net rbr_fifo_3 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_4 on net rbr_fifo_4 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_5 on net rbr_fifo_5 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_6 on net rbr_fifo_6 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_7 on net rbr_fifo_7 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":134:26:134:33|Tristate driver rbr_fifo_8 on net rbr_fifo_8 has its enable tied to GND (module rxcver_8s_0s_0_1_2_3_4_MachXO2) 
+@W: MO111 :|Tristate driver fifo_empty_thr_t on net fifo_empty_thr has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver fifo_full_thr_t on net fifo_full_thr has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[0] on net RBR_FIFO[0] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[1] on net RBR_FIFO[1] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[2] on net RBR_FIFO[2] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[3] on net RBR_FIFO[3] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[4] on net RBR_FIFO[4] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[5] on net RBR_FIFO[5] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[6] on net RBR_FIFO[6] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver RBR_FIFO_t[7] on net RBR_FIFO[7] has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver fifo_empty_t on net fifo_empty has its enable tied to GND (module uart_core_Z9_layer1) 
+@W: MO111 :|Tristate driver fifo_almost_full_t on net fifo_almost_full has its enable tied to GND (module uart_core_Z9_layer1) 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":123:3:123:8|Removing sequential instance genblk9\.itio_inst\[3\]\.TP.PIO_DATA_I of view:PrimLib.dffre(prim) in hierarchy view:work.gpio_Z7_layer1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":123:3:123:8|Removing sequential instance genblk9\.itio_inst\[2\]\.TP.PIO_DATA_I of view:PrimLib.dffre(prim) in hierarchy view:work.gpio_Z7_layer1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":123:3:123:8|Removing sequential instance genblk9\.itio_inst\[1\]\.TP.PIO_DATA_I of view:PrimLib.dffre(prim) in hierarchy view:work.gpio_Z7_layer1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":123:3:123:8|Removing sequential instance genblk9\.itio_inst\[0\]\.TP.PIO_DATA_I of view:PrimLib.dffre(prim) in hierarchy view:work.gpio_Z7_layer1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":117:3:117:8|Removing sequential instance LED.genblk9\.itio_inst\[3\]\.TP.PIO_DATA_O of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":111:3:111:8|Removing sequential instance LED.genblk9\.itio_inst\[3\]\.TP.PIO_TRI of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":117:3:117:8|Removing sequential instance LED.genblk9\.itio_inst\[2\]\.TP.PIO_DATA_O of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":111:3:111:8|Removing sequential instance LED.genblk9\.itio_inst\[2\]\.TP.PIO_TRI of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":117:3:117:8|Removing sequential instance LED.genblk9\.itio_inst\[1\]\.TP.PIO_DATA_O of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":111:3:111:8|Removing sequential instance LED.genblk9\.itio_inst\[1\]\.TP.PIO_TRI of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":117:3:117:8|Removing sequential instance LED.genblk9\.itio_inst\[0\]\.TP.PIO_DATA_O of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/gpio/rtl/verilog\tpio.v":111:3:111:8|Removing sequential instance LED.genblk9\.itio_inst\[0\]\.TP.PIO_TRI of view:PrimLib.dffre(prim) in hierarchy view:work.sync_controller(verilog) because there are no references to its outputs 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@N:"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\clock_divider.vhd":36:8:36:9|Found counter in view:work.clock_divider_512(behavioral) inst count[7:0]
+@N:"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\triggered_counter.vhd":36:2:36:3|Found counter in view:work.sio(sio_arch) inst delay_cntr[31:0]
+@N: MF179 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\triggered_counter.vhd":59:4:59:26|Found 32 bit by 32 bit '==' comparator, 'un8_delay_cntr'
+Encoding state machine selected[2:0] (netlist:statemachine)
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: MO160 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\sync_controller.v":246:0:246:5|Register bit selected[0] is always 0, optimizing ...
+Encoding state machine genblk22\.cs_state[3:0] (netlist:statemachine)
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+Encoding state machine cs_state[4:0] (netlist:statemachine)
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":315:3:315:8|Found counter in view:work.rxcver_8s_0s_0_1_2_3_4_MachXO2(verilog) inst databit_recved_num[3:0]
+@N: MF179 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":332:10:332:30|Found 16 bit by 16 bit '==' comparator, 'cs_state12'
+Encoding state machine genblk2\.genblk1\.tx_state[6:0] (netlist:statemachine)
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N:"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\txmitt.v":333:3:333:8|Found counter in view:work.txmitt_8s_0s_0_1_2_3_4_5_6(verilog) inst genblk2\.genblk1\.counter[15:0]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[0],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[0]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[1],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[1]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[2],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[2]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[3],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[3]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[4],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[4]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[5],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[5]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[6],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[6]
+@W: BN132 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Removing instance lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.dout_alu_reg[7],  because it is equivalent to instance lm8_inst.LM8.u1_isp8_core.din_rd1[7]
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+@N: MF578 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\triggered_counter.vhd":36:2:36:3|Incompatible asynchronous control logic preventing generated clock conversion of wb_sync_wrapper.triggered_counter.signal_in_pulse2 (netlist:FDCPE).
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 145MB)
+
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 145MB)
+
+@N: FA113 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":408:1:408:2|Pipelining module un1_stack_ptr[3:0]
+@N: MF169 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":465:3:465:8|Register stack_ptr[3:0] pushed in.
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":122:3:122:8|Removing sequential instance lm8_inst.LM8.u1_isp8_core.u1_lm8_interrupt.ip[1] in hierarchy view:work.sync_controller_top(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":122:3:122:8|Removing sequential instance lm8_inst.LM8.u1_isp8_core.u1_lm8_interrupt.ip[7] in hierarchy view:work.sync_controller_top(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":122:3:122:8|Removing sequential instance lm8_inst.LM8.u1_isp8_core.u1_lm8_interrupt.ip[6] in hierarchy view:work.sync_controller_top(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":122:3:122:8|Removing sequential instance lm8_inst.LM8.u1_isp8_core.u1_lm8_interrupt.ip[5] in hierarchy view:work.sync_controller_top(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":122:3:122:8|Removing sequential instance lm8_inst.LM8.u1_isp8_core.u1_lm8_interrupt.ip[4] in hierarchy view:work.sync_controller_top(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":122:3:122:8|Removing sequential instance lm8_inst.LM8.u1_isp8_core.u1_lm8_interrupt.ip[3] in hierarchy view:work.sync_controller_top(behavioral) because there are no references to its outputs 
+@N: BN362 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_interrupt.v":122:3:122:8|Removing sequential instance lm8_inst.LM8.u1_isp8_core.u1_lm8_interrupt.ip[2] in hierarchy view:work.sync_controller_top(behavioral) because there are no references to its outputs 
+@N: FX404 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/uart_core/rtl/verilog\rxcver.v":324:13:324:16|Found addmux in view:work.sync_controller_top(behavioral) inst lm8_inst.uart.u_rxcver.counter_11[15:0] from lm8_inst.uart.u_rxcver.un1_counter_2[15:0] 
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 145MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 145MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 145MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 138MB peak: 145MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 172MB peak: 175MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 144MB peak: 175MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_7_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_6_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_5_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_4_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_3_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_2_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_1_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_wb_wrapper.vhd":79:3:79:4|Boundary register wb_sync_wrapper.Q_0_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 175MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 306 clock pin(s) of sequential element(s)
+0 instances converted, 306 sequential instances remain driven by gated/generated clocks
+
+= Non-Gated/Non-Generated Clocks =
+************** None **************
+----------------------------------
+==================================
+================================================================================================================================================================================= Gated/Generated Clocks ==================================================================================================================================================================================
+Clock Tree ID                                                                                                                              Driving Element       Drive Element Type     Fanout     Sample Instance                                           Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:"@|S:OSCInst0@|E:lm8_inst_LED_genblk3.genblk1.genblk1[0].PIO_DATAio[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001"              OSCInst0              OSCH                   270        lm8_inst_LED_genblk3.genblk1.genblk1[0].PIO_DATAio[0]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:"@|S:clk_div.clk_out_i@|E:wb_sync_wrapper_triggered_counter_signal_in_delayedio@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002"     clk_div.clk_out_i     FD1S3DX                36         wb_sync_wrapper_triggered_counter_signal_in_delayedio     Need declared clock or clock from port to derive clock from ff                                                                
+===========================================================================================================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\AndrewPC1\Documents\GitHub\sync_controller\diamond\sync_controller\sync_controller_sync_controller.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 144MB peak: 175MB)
+
+Writing EDIF Netlist and constraint files
+G-2012.09L-1 
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 149MB peak: 175MB)
+
+@W: MT246 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\..\vhdl\sync_controller_top.vhd":136:1:136:8|Blackbox OSCH is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":604:8:604:20|Blackbox pmi_ram_dq_Z6_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_top.v":374:8:374:19|Blackbox pmi_ram_dq_Z5_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_core.v":464:14:464:25|Blackbox pmi_distributed_dpram_32s_5s_8s_noreg_none_binary_MachXO2_pmi_distributed_dpram_3_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_flow_cntl.v":451:3:451:15|Blackbox pmi_distributed_spram_16s_4s_13s_noreg_none_binary_MachXO2_pmi_distributed_spram_1_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\andrewpc1\documents\github\sync_controller\diamond\sync_controller\soc\../components/lm8/rtl/verilog\lm8_alu.v":102:18:102:27|Blackbox pmi_addsub_8s_8s_off_MachXO2_pmi_addsub is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock sync_controller_top|clk_i_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:clk_i"
+
+Found clock clock_divider_512|clk_out_i_derived_clock with period 1000.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jul 30 22:59:31 2013
+#
+
+
+Top view:               sync_controller_top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 984.507
+
+                                              Requested     Estimated     Requested     Estimated                  Clock                                                       Clock              
+Starting Clock                                Frequency     Frequency     Period        Period        Slack        Type                                                        Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clock_divider_512|clk_out_i_derived_clock     1.0 MHz       168.6 MHz     1000.000      5.933         1992.631     derived (from sync_controller_top|clk_i_inferred_clock)     Inferred_clkgroup_0
+sync_controller_top|clk_i_inferred_clock      1.0 MHz       64.5 MHz      1000.000      15.493        984.507      inferred                                                    Inferred_clkgroup_0
+System                                        1.0 MHz       75.9 MHz      1000.000      13.170        986.830      system                                                      system_clkgroup    
+==================================================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                   Ending                                     |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                     System                                     |  1000.000    986.830   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                     sync_controller_top|clk_i_inferred_clock   |  1000.000    985.870   |  No paths    -      |  No paths    -      |  No paths    -    
+sync_controller_top|clk_i_inferred_clock   System                                     |  1000.000    985.467   |  No paths    -      |  No paths    -      |  No paths    -    
+sync_controller_top|clk_i_inferred_clock   sync_controller_top|clk_i_inferred_clock   |  1000.000    984.507   |  No paths    -      |  No paths    -      |  No paths    -    
+sync_controller_top|clk_i_inferred_clock   clock_divider_512|clk_out_i_derived_clock  |  1000.000    994.067   |  No paths    -      |  No paths    -      |  No paths    -    
+clock_divider_512|clk_out_i_derived_clock  clock_divider_512|clk_out_i_derived_clock  |  1000.000    1992.631  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clock_divider_512|clk_out_i_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                               Arrival             
+Instance                                               Reference                                     Type        Pin     Net                  Time        Slack   
+                                                       Clock                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+wb_sync_wrapper.triggered_counter.reset_delay_cntr     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       reset_delay_cntr     1.108       1992.631
+wb_sync_wrapper.triggered_counter.delay_cntr[0]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[0]        1.044       1993.615
+wb_sync_wrapper.triggered_counter.delay_cntr[1]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[1]        1.044       1993.703
+wb_sync_wrapper.triggered_counter.delay_cntr[2]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[2]        1.044       1993.758
+wb_sync_wrapper.triggered_counter.delay_cntr[3]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[3]        1.044       1993.845
+wb_sync_wrapper.triggered_counter.delay_cntr[4]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[4]        1.044       1993.845
+wb_sync_wrapper.triggered_counter.delay_cntr[5]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[5]        1.044       1993.845
+wb_sync_wrapper.triggered_counter.delay_cntr[6]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[6]        1.044       1993.988
+wb_sync_wrapper.triggered_counter.delay_cntr[7]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[7]        1.044       1993.988
+wb_sync_wrapper.triggered_counter.delay_cntr[8]        clock_divider_512|clk_out_i_derived_clock     FD1P3AX     Q       delay_cntr[8]        1.044       1993.988
+==================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                                               Required             
+Instance                                             Reference                                     Type        Pin     Net                  Time         Slack   
+                                                     Clock                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+wb_sync_wrapper.triggered_counter.delay_cntr[31]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[31]     1999.894     1992.631
+wb_sync_wrapper.triggered_counter.delay_cntr[29]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[29]     1999.894     1992.774
+wb_sync_wrapper.triggered_counter.delay_cntr[30]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[30]     1999.894     1992.774
+wb_sync_wrapper.triggered_counter.delay_cntr[27]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[27]     1999.894     1992.917
+wb_sync_wrapper.triggered_counter.delay_cntr[28]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[28]     1999.894     1992.917
+wb_sync_wrapper.triggered_counter.delay_cntr[25]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[25]     1999.894     1993.060
+wb_sync_wrapper.triggered_counter.delay_cntr[26]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[26]     1999.894     1993.060
+wb_sync_wrapper.triggered_counter.delay_cntr[23]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[23]     1999.894     1993.202
+wb_sync_wrapper.triggered_counter.delay_cntr[24]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[24]     1999.894     1993.202
+wb_sync_wrapper.triggered_counter.delay_cntr[21]     clock_divider_512|clk_out_i_derived_clock     FD1P3AX     D       delay_cntr_s[21]     1999.894     1993.345
+=================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1999.894
+
+    - Propagation time:                      7.263
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1992.631
+
+    Number of logic level(s):                18
+    Starting point:                          wb_sync_wrapper.triggered_counter.reset_delay_cntr / Q
+    Ending point:                            wb_sync_wrapper.triggered_counter.delay_cntr[31] / D
+    The start point is clocked by            clock_divider_512|clk_out_i_derived_clock [rising] on pin CK
+    The end   point is clocked by            clock_divider_512|clk_out_i_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:clock_divider_512|clk_out_i_derived_clock to c:clock_divider_512|clk_out_i_derived_clock)
+
+Instance / Net                                                             Pin      Pin               Arrival     No. of    
+Name                                                           Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+wb_sync_wrapper.triggered_counter.reset_delay_cntr             FD1P3AX     Q        Out     1.108     1.108       -         
+reset_delay_cntr                                               Net         -        -       -         -           3         
+wb_sync_wrapper.triggered_counter.reset_delay_cntr_RNIK6L6     INV         A        In      0.000     1.108       -         
+wb_sync_wrapper.triggered_counter.reset_delay_cntr_RNIK6L6     INV         Z        Out     0.920     2.028       -         
+reset_delay_cntr_i                                             Net         -        -       -         -           34        
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[0]          CCU2D       A1       In      0.000     2.028       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[0]          CCU2D       COUT     Out     1.545     3.572       -         
+delay_cntr_cry[0]                                              Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[1]          CCU2D       CIN      In      0.000     3.572       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[1]          CCU2D       COUT     Out     0.143     3.715       -         
+delay_cntr_cry[2]                                              Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[3]          CCU2D       CIN      In      0.000     3.715       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[3]          CCU2D       COUT     Out     0.143     3.858       -         
+delay_cntr_cry[4]                                              Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[5]          CCU2D       CIN      In      0.000     3.858       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[5]          CCU2D       COUT     Out     0.143     4.001       -         
+delay_cntr_cry[6]                                              Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[7]          CCU2D       CIN      In      0.000     4.001       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[7]          CCU2D       COUT     Out     0.143     4.144       -         
+delay_cntr_cry[8]                                              Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[9]          CCU2D       CIN      In      0.000     4.144       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[9]          CCU2D       COUT     Out     0.143     4.286       -         
+delay_cntr_cry[10]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[11]         CCU2D       CIN      In      0.000     4.286       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[11]         CCU2D       COUT     Out     0.143     4.429       -         
+delay_cntr_cry[12]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[13]         CCU2D       CIN      In      0.000     4.429       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[13]         CCU2D       COUT     Out     0.143     4.572       -         
+delay_cntr_cry[14]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[15]         CCU2D       CIN      In      0.000     4.572       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[15]         CCU2D       COUT     Out     0.143     4.715       -         
+delay_cntr_cry[16]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[17]         CCU2D       CIN      In      0.000     4.715       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[17]         CCU2D       COUT     Out     0.143     4.857       -         
+delay_cntr_cry[18]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[19]         CCU2D       CIN      In      0.000     4.857       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[19]         CCU2D       COUT     Out     0.143     5.000       -         
+delay_cntr_cry[20]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[21]         CCU2D       CIN      In      0.000     5.000       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[21]         CCU2D       COUT     Out     0.143     5.143       -         
+delay_cntr_cry[22]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[23]         CCU2D       CIN      In      0.000     5.143       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[23]         CCU2D       COUT     Out     0.143     5.286       -         
+delay_cntr_cry[24]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[25]         CCU2D       CIN      In      0.000     5.286       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[25]         CCU2D       COUT     Out     0.143     5.429       -         
+delay_cntr_cry[26]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[27]         CCU2D       CIN      In      0.000     5.429       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[27]         CCU2D       COUT     Out     0.143     5.572       -         
+delay_cntr_cry[28]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[29]         CCU2D       CIN      In      0.000     5.572       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_cry_0[29]         CCU2D       COUT     Out     0.143     5.714       -         
+delay_cntr_cry[30]                                             Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr_s_0[31]           CCU2D       CIN      In      0.000     5.714       -         
+wb_sync_wrapper.triggered_counter.delay_cntr_s_0[31]           CCU2D       S0       Out     1.549     7.263       -         
+delay_cntr_s[31]                                               Net         -        -       -         -           1         
+wb_sync_wrapper.triggered_counter.delay_cntr[31]               FD1P3AX     D        In      0.000     7.263       -         
+============================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: sync_controller_top|clk_i_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                        Starting                                                                          Arrival            
+Instance                                                Reference                                    Type        Pin     Net              Time        Slack  
+                                                        Clock                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+lm8_inst.LM8.genblk1\.genblk2\.first_fetch              sync_controller_top|clk_i_inferred_clock     FD1S3DX     Q       first_fetch      1.363       984.507
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[3]         sync_controller_top|clk_i_inferred_clock     FD1P3DX     Q       page_ptr1[3]     1.044       987.860
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[6]         sync_controller_top|clk_i_inferred_clock     FD1P3DX     Q       page_ptr1[6]     1.044       987.860
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[7]         sync_controller_top|clk_i_inferred_clock     FD1P3DX     Q       page_ptr1[7]     1.044       987.860
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[4]         sync_controller_top|clk_i_inferred_clock     FD1P3DX     Q       page_ptr1[4]     1.044       988.877
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[5]         sync_controller_top|clk_i_inferred_clock     FD1P3DX     Q       page_ptr1[5]     1.044       988.877
+lm8_inst.LM8.u1_isp8_core.u1_lm8_cntl_u1.ext_mem_wr     sync_controller_top|clk_i_inferred_clock     FD1S3DX     Q       ext_mem_wr       1.148       988.965
+lm8_inst.LM8.u1_isp8_core.u1_lm8_cntl_u1.ext_io_wr      sync_controller_top|clk_i_inferred_clock     FD1S3DX     Q       ext_io_wr        1.044       989.005
+lm8_inst.LM8.u1_isp8_core.u1_lm8_cntl_u1.ext_mem_rd     sync_controller_top|clk_i_inferred_clock     FD1S3DX     Q       ext_mem_rd       1.044       989.069
+lm8_inst.LM8.u1_isp8_core.u1_lm8_cntl_u1.ext_io_rd      sync_controller_top|clk_i_inferred_clock     FD1S3DX     Q       ext_io_rd        0.972       989.077
+=============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                            Starting                                                                               Required            
+Instance                                                    Reference                                    Type        Pin     Net                   Time         Slack  
+                                                            Clock                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+lm8_inst.uart.u_intface.genblk22\.cs_state[1]               sync_controller_top|clk_i_inferred_clock     FD1S3DX     D       cs_state_ns[1]        1000.462     984.507
+lm8_inst.uart.u_rxcver.genblk3\.break_int_int               sync_controller_top|clk_i_inferred_clock     FD1P3DX     SP      un1_lsr_rd            999.528      984.628
+lm8_inst.uart.u_rxcver.genblk3\.frame_err_int               sync_controller_top|clk_i_inferred_clock     FD1P3DX     SP      un1_lsr_rd            999.528      984.628
+lm8_inst.uart.u_rxcver.genblk3\.overrun_err_int             sync_controller_top|clk_i_inferred_clock     FD1P3DX     SP      un1_lsr_rd            999.528      984.628
+lm8_inst.uart.u_rxcver.genblk3\.parity_err_int              sync_controller_top|clk_i_inferred_clock     FD1P3DX     SP      un1_lsr_rd            999.528      984.628
+lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.data_cyc         sync_controller_top|clk_i_inferred_clock     FD1S3DX     D       data_cyc_nxt4         1000.089     985.251
+lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.ext_addr_cyc     sync_controller_top|clk_i_inferred_clock     FD1S3BX     D       ext_addr_cyc_nxt4     1000.089     985.251
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[0]             sync_controller_top|clk_i_inferred_clock     FD1P3DX     D       din_rd[0]             999.894      985.361
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[1]             sync_controller_top|clk_i_inferred_clock     FD1P3DX     D       din_rd[1]             999.894      985.361
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[2]             sync_controller_top|clk_i_inferred_clock     FD1P3DX     D       din_rd[2]             999.894      985.361
+=======================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.462
+
+    - Propagation time:                      15.956
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     984.507
+
+    Number of logic level(s):                14
+    Starting point:                          lm8_inst.LM8.genblk1\.genblk2\.first_fetch / Q
+    Ending point:                            lm8_inst.uart.u_intface.genblk22\.cs_state[1] / D
+    The start point is clocked by            sync_controller_top|clk_i_inferred_clock [rising] on pin CK
+    The end   point is clocked by            sync_controller_top|clk_i_inferred_clock [rising] on pin CK
+
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+lm8_inst.LM8.genblk1\.genblk2\.first_fetch                       FD1S3DX      Q        Out     1.363     1.363       -         
+first_fetch                                                      Net          -        -       -         -           56        
+lm8_inst.LM8.u1_isp8_core.u1_lm8_alu.cout_dout_alu_1_sn_m7_0     ORCALUT4     B        In      0.000     1.363       -         
+lm8_inst.LM8.u1_isp8_core.u1_lm8_alu.cout_dout_alu_1_sn_m7_0     ORCALUT4     Z        Out     1.297     2.660       -         
+instr_l1_2                                                       Net          -        -       -         -           13        
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ie                    ORCALUT4     C        In      0.000     2.660       -         
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ie                    ORCALUT4     Z        Out     1.289     3.949       -         
+iels_ie                                                          Net          -        -       -         -           12        
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ls_RNI09S61           ORCALUT4     B        In      0.000     3.949       -         
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ls_RNI09S61           ORCALUT4     Z        Out     0.449     4.397       -         
+ext_addr8                                                        Net          -        -       -         -           9         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp_2                ORCALUT4     A        In      0.000     4.397       -         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp_2                ORCALUT4     Z        Out     1.017     5.414       -         
+un12_external_sp_2                                               Net          -        -       -         -           1         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp                  ORCALUT4     A        In      0.000     5.414       -         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp                  ORCALUT4     Z        Out     1.281     6.695       -         
+un12_external_sp                                                 Net          -        -       -         -           11        
+lm8_inst.LM8.ext_cyc                                             ORCALUT4     D        In      0.000     6.695       -         
+lm8_inst.LM8.ext_cyc                                             ORCALUT4     Z        Out     1.273     7.968       -         
+ext_cyc                                                          Net          -        -       -         -           9         
+lm8_inst.arbiter.selected_RNIV4451[1]                            ORCALUT4     D        In      0.000     7.968       -         
+lm8_inst.arbiter.selected_RNIV4451[1]                            ORCALUT4     Z        Out     1.089     9.057       -         
+un1_lm8_inst[6]                                                  Net          -        -       -         -           2         
+lm8_inst.arbiter.LEDGPIO_en_2                                    ORCALUT4     D        In      0.000     9.057       -         
+lm8_inst.arbiter.LEDGPIO_en_2                                    ORCALUT4     Z        Out     1.089     10.145      -         
+LEDGPIO_en_2                                                     Net          -        -       -         -           2         
+lm8_inst.arbiter.uartUART_en                                     ORCALUT4     A        In      0.000     10.145      -         
+lm8_inst.arbiter.uartUART_en                                     ORCALUT4     Z        Out     1.321     11.466      -         
+uartUART_en                                                      Net          -        -       -         -           19        
+lm8_inst.uart.u_intface.lsr_rd_21                                ORCALUT4     A        In      0.000     11.466      -         
+lm8_inst.uart.u_intface.lsr_rd_21                                ORCALUT4     Z        Out     1.089     12.555      -         
+lsr_rd_21                                                        Net          -        -       -         -           2         
+lm8_inst.uart.u_intface.lsr_rd                                   ORCALUT4     A        In      0.000     12.555      -         
+lm8_inst.uart.u_intface.lsr_rd                                   ORCALUT4     Z        Out     1.153     13.708      -         
+lsr_rd                                                           Net          -        -       -         -           3         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m16           ORCALUT4     A        In      0.000     13.708      -         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m16           ORCALUT4     Z        Out     1.017     14.725      -         
+N_23_mux                                                         Net          -        -       -         -           1         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18_bm        ORCALUT4     C        In      0.000     14.725      -         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18_bm        ORCALUT4     Z        Out     1.017     15.741      -         
+m18_bm                                                           Net          -        -       -         -           1         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18           PFUMX        ALUT     In      0.000     15.741      -         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18           PFUMX        Z        Out     0.214     15.956      -         
+cs_state_ns[1]                                                   Net          -        -       -         -           1         
+lm8_inst.uart.u_intface.genblk22\.cs_state[1]                    FD1S3DX      D        In      0.000     15.956      -         
+===============================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                Starting                                                               Arrival            
+Instance                                        Reference     Type                     Pin       Net                   Time        Slack  
+                                                Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[16]     instr_mem_out[16]     0.000       985.870
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[17]     instr_mem_out[17]     0.000       985.870
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[14]     instr_mem_out[14]     0.000       985.902
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[15]     instr_mem_out[15]     0.000       985.902
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[2]      instr_mem_out[2]      0.000       986.718
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[13]     instr_mem_out[13]     0.000       986.718
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[1]      instr_mem_out[1]      0.000       988.455
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[12]     instr_mem_out[12]     0.000       993.235
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[0]      instr_mem_out[0]      0.000       994.658
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom     System        pmi_ram_dq_Z5_layer1     Q[3]      instr_mem_out[3]      0.000       995.242
+==========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                            Starting                                                Required            
+Instance                                                    Reference     Type        Pin     Net                   Time         Slack  
+                                                            Clock                                                                       
+----------------------------------------------------------------------------------------------------------------------------------------
+lm8_inst.uart.u_intface.genblk22\.cs_state[1]               System        FD1S3DX     D       cs_state_ns[1]        1000.462     985.870
+lm8_inst.uart.u_rxcver.genblk3\.break_int_int               System        FD1P3DX     SP      un1_lsr_rd            999.528      985.991
+lm8_inst.uart.u_rxcver.genblk3\.frame_err_int               System        FD1P3DX     SP      un1_lsr_rd            999.528      985.991
+lm8_inst.uart.u_rxcver.genblk3\.overrun_err_int             System        FD1P3DX     SP      un1_lsr_rd            999.528      985.991
+lm8_inst.uart.u_rxcver.genblk3\.parity_err_int              System        FD1P3DX     SP      un1_lsr_rd            999.528      985.991
+lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.data_cyc         System        FD1S3DX     D       data_cyc_nxt4         1000.089     986.614
+lm8_inst.LM8.u1_isp8_core.u1_lm8_flow_cntl.ext_addr_cyc     System        FD1S3BX     D       ext_addr_cyc_nxt4     1000.089     986.614
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[0]             System        FD1P3DX     D       din_rd[0]             999.894      986.724
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[1]             System        FD1P3DX     D       din_rd[1]             999.894      986.724
+lm8_inst.LM8.u1_isp8_core.genblk4\.page_ptr1[2]             System        FD1P3DX     D       din_rd[2]             999.894      986.724
+========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.462
+
+    - Propagation time:                      14.593
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 985.870
+
+    Number of logic level(s):                14
+    Starting point:                          lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom / Q[16]
+    Ending point:                            lm8_inst.uart.u_intface.genblk22\.cs_state[1] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            sync_controller_top|clk_i_inferred_clock [rising] on pin CK
+
+Instance / Net                                                                            Pin       Pin               Arrival     No. of    
+Name                                                             Type                     Name      Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+lm8_inst.LM8.genblk1\.genblk2\.u1_isp8_prom                      pmi_ram_dq_Z5_layer1     Q[16]     Out     0.000     0.000       -         
+instr_mem_out[16]                                                Net                      -         -       -         -           5         
+lm8_inst.LM8.u1_isp8_core.u1_lm8_alu.cout_dout_alu_1_sn_m7_0     ORCALUT4                 A         In      0.000     0.000       -         
+lm8_inst.LM8.u1_isp8_core.u1_lm8_alu.cout_dout_alu_1_sn_m7_0     ORCALUT4                 Z         Out     1.297     1.297       -         
+instr_l1_2                                                       Net                      -         -       -         -           13        
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ie                    ORCALUT4                 C         In      0.000     1.297       -         
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ie                    ORCALUT4                 Z         Out     1.289     2.586       -         
+iels_ie                                                          Net                      -         -       -         -           12        
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ls_RNI09S61           ORCALUT4                 B         In      0.000     2.586       -         
+lm8_inst.LM8.u1_isp8_core.u1_lm8_idec.iels_ls_RNI09S61           ORCALUT4                 Z         Out     0.449     3.034       -         
+ext_addr8                                                        Net                      -         -       -         -           9         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp_2                ORCALUT4                 A         In      0.000     3.034       -         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp_2                ORCALUT4                 Z         Out     1.017     4.051       -         
+un12_external_sp_2                                               Net                      -         -       -         -           1         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp                  ORCALUT4                 A         In      0.000     4.051       -         
+lm8_inst.LM8.genblk4\.genblk1\.un12_external_sp                  ORCALUT4                 Z         Out     1.281     5.332       -         
+un12_external_sp                                                 Net                      -         -       -         -           11        
+lm8_inst.LM8.ext_cyc                                             ORCALUT4                 D         In      0.000     5.332       -         
+lm8_inst.LM8.ext_cyc                                             ORCALUT4                 Z         Out     1.273     6.605       -         
+ext_cyc                                                          Net                      -         -       -         -           9         
+lm8_inst.arbiter.selected_RNIV4451[1]                            ORCALUT4                 D         In      0.000     6.605       -         
+lm8_inst.arbiter.selected_RNIV4451[1]                            ORCALUT4                 Z         Out     1.089     7.694       -         
+un1_lm8_inst[6]                                                  Net                      -         -       -         -           2         
+lm8_inst.arbiter.LEDGPIO_en_2                                    ORCALUT4                 D         In      0.000     7.694       -         
+lm8_inst.arbiter.LEDGPIO_en_2                                    ORCALUT4                 Z         Out     1.089     8.782       -         
+LEDGPIO_en_2                                                     Net                      -         -       -         -           2         
+lm8_inst.arbiter.uartUART_en                                     ORCALUT4                 A         In      0.000     8.782       -         
+lm8_inst.arbiter.uartUART_en                                     ORCALUT4                 Z         Out     1.321     10.103      -         
+uartUART_en                                                      Net                      -         -       -         -           19        
+lm8_inst.uart.u_intface.lsr_rd_21                                ORCALUT4                 A         In      0.000     10.103      -         
+lm8_inst.uart.u_intface.lsr_rd_21                                ORCALUT4                 Z         Out     1.089     11.192      -         
+lsr_rd_21                                                        Net                      -         -       -         -           2         
+lm8_inst.uart.u_intface.lsr_rd                                   ORCALUT4                 A         In      0.000     11.192      -         
+lm8_inst.uart.u_intface.lsr_rd                                   ORCALUT4                 Z         Out     1.153     12.345      -         
+lsr_rd                                                           Net                      -         -       -         -           3         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m16           ORCALUT4                 A         In      0.000     12.345      -         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m16           ORCALUT4                 Z         Out     1.017     13.362      -         
+N_23_mux                                                         Net                      -         -       -         -           1         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18_bm        ORCALUT4                 C         In      0.000     13.362      -         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18_bm        ORCALUT4                 Z         Out     1.017     14.378      -         
+m18_bm                                                           Net                      -         -       -         -           1         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18           PFUMX                    ALUT      In      0.000     14.378      -         
+lm8_inst.uart.u_intface.genblk22\.cs_state_ns_1_0_.m18           PFUMX                    Z         Out     0.214     14.593      -         
+cs_state_ns[1]                                                   Net                      -         -       -         -           1         
+lm8_inst.uart.u_intface.genblk22\.cs_state[1]                    FD1S3DX                  D         In      0.000     14.593      -         
+============================================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 306 of 6864 (4%)
+PIC Latch:       0
+I/O cells:       13
+
+
+Details:
+CCU2D:          63
+FD1P3AX:        34
+FD1P3BX:        28
+FD1P3DX:        114
+FD1P3IX:        16
+FD1S3AX:        4
+FD1S3BX:        7
+FD1S3DX:        93
+FD1S3IX:        4
+GSR:            1
+IB:             3
+IFS1P3DX:       2
+INV:            9
+OB:             10
+OFS1P3DX:       4
+ORCALUT4:       501
+PFUMX:          33
+PUR:            1
+VHI:            15
+VLO:            17
+false:          1
+true:           3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 42MB peak: 175MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Tue Jul 30 22:59:31 2013
+
+###########################################################]

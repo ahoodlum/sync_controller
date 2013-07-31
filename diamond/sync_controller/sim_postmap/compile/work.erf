@@ -1,0 +1,5 @@
+MESSAGE "File: C:\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sync_controller_wb_wrapper_TB.vhd" 
+MESSAGE "Compile Entity "sync_controller_wb_wrapper_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "sync_controller_wb_wrapper_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_sync_controller_wb_wrapper"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

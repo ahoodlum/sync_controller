@@ -1,0 +1,5 @@
+MESSAGE "File: C:\my_designs\sync_controller\sync_controller_rtl\src\TestBench\sio_TB.vhd" 
+MESSAGE "Compile Entity "sio_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "sio_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_sio"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

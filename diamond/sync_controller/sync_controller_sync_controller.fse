@@ -1,0 +1,54 @@
+
+fsm_encoding {724602464} sequential
+
+fsm_state_encoding {724602464} 00 {00}
+
+fsm_state_encoding {724602464} 01 {01}
+
+fsm_state_encoding {724602464} 10 {10}
+
+fsm_registers {724602464} {selected[1]}  {selected[0]} 
+
+fsm_encoding {2787328733} sequential
+
+fsm_state_encoding {2787328733} idle {00}
+
+fsm_state_encoding {2787328733} int0 {01}
+
+fsm_state_encoding {2787328733} int1 {10}
+
+fsm_state_encoding {2787328733} int2 {11}
+
+fsm_registers {2787328733} {genblk22®cs_state[1]}  {genblk22®cs_state[0]} 
+
+fsm_encoding {3131533152} onehot
+
+fsm_state_encoding {3131533152} idle {00001}
+
+fsm_state_encoding {3131533152} shift {00010}
+
+fsm_state_encoding {3131533152} parity {00100}
+
+fsm_state_encoding {3131533152} stop {01000}
+
+fsm_state_encoding {3131533152} idle1 {10000}
+
+fsm_registers {3131533152} {cs_state[4]}  {cs_state[3]}  {cs_state[2]}  {cs_state[1]}  {cs_state[0]} 
+
+fsm_encoding {3533333331} onehot
+
+fsm_state_encoding {3533333331} start {0000001}
+
+fsm_state_encoding {3533333331} shift {0000010}
+
+fsm_state_encoding {3533333331} parity {0000100}
+
+fsm_state_encoding {3533333331} stop_1bit {0001000}
+
+fsm_state_encoding {3533333331} stop_2bit {0010000}
+
+fsm_state_encoding {3533333331} stop_halfbit {0100000}
+
+fsm_state_encoding {3533333331} start1 {1000000}
+
+fsm_registers {3533333331} {genblk2®genblk1®tx_state[6]}  {genblk2®genblk1®tx_state[5]}  {genblk2®genblk1®tx_state[4]}  {genblk2®genblk1®tx_state[3]}  {genblk2®genblk1®tx_state[2]}  {genblk2®genblk1®tx_state[1]}  {genblk2®genblk1®tx_state[0]} 

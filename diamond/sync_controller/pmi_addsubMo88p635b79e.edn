@@ -1,0 +1,304 @@
+(edif pmi_addsubMo88p635b79e
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2013 7 30 22 59 34)
+      (program "SCUBA" (version "Diamond_2.1_Production (100)"))))
+      (comment "C:/lscc/diamond/2.1_x64/ispfpga/bin/nt64/scuba -w -arch xo2c00 -n pmi_addsubMo88p635b79e -bb -bus_exp 7 -type addsub -width 8 -unsigned -port ci -port co -pmi ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell FADD2B
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port A0
+            (direction INPUT))
+          (port A1
+            (direction INPUT))
+          (port B0
+            (direction INPUT))
+          (port B1
+            (direction INPUT))
+          (port CI
+            (direction INPUT))
+          (port COUT
+            (direction OUTPUT))
+          (port S0
+            (direction OUTPUT))
+          (port S1
+            (direction OUTPUT)))))
+    (cell FADSU2
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port A0
+            (direction INPUT))
+          (port A1
+            (direction INPUT))
+          (port B0
+            (direction INPUT))
+          (port B1
+            (direction INPUT))
+          (port BCI
+            (direction INPUT))
+          (port CON
+            (direction INPUT))
+          (port BCO
+            (direction OUTPUT))
+          (port S0
+            (direction OUTPUT))
+          (port S1
+            (direction OUTPUT)))))
+    (cell INV
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port A
+            (direction INPUT))
+          (port Z
+            (direction OUTPUT)))))
+    (cell VHI
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell VLO
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell XNOR2
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port A
+            (direction INPUT))
+          (port B
+            (direction INPUT))
+          (port Z
+            (direction OUTPUT)))))
+    (cell pmi_addsubMo88p635b79e
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port (array (rename DataA "DataA(7:0)") 8)
+            (direction INPUT))
+          (port (array (rename DataB "DataB(7:0)") 8)
+            (direction INPUT))
+          (port Cin
+            (direction INPUT))
+          (port Add_Sub
+            (direction INPUT))
+          (port (array (rename Result "Result(7:0)") 8)
+            (direction OUTPUT))
+          (port Cout
+            (direction OUTPUT))
+          (port Overflow
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance scuba_vhi_inst
+            (viewRef view1 
+              (cellRef VHI)))
+          (instance XNOR2_t0
+            (viewRef view1 
+              (cellRef XNOR2)))
+          (instance INV_0
+            (viewRef view1 
+              (cellRef INV)))
+          (instance addsub_0
+            (viewRef view1 
+              (cellRef FADSU2)))
+          (instance addsub_1
+            (viewRef view1 
+              (cellRef FADSU2)))
+          (instance addsub_2
+            (viewRef view1 
+              (cellRef FADSU2)))
+          (instance addsub_3
+            (viewRef view1 
+              (cellRef FADSU2)))
+          (instance addsub_4
+            (viewRef view1 
+              (cellRef FADSU2)))
+          (instance scuba_vlo_inst
+            (viewRef view1 
+              (cellRef VLO)))
+          (instance addsubd
+            (viewRef view1 
+              (cellRef FADD2B)))
+          (net scuba_vhi
+            (joined
+              (portRef Z (instanceRef scuba_vhi_inst))))
+          (net ci_k
+            (joined
+              (portRef B0 (instanceRef addsub_0))
+              (portRef Z (instanceRef XNOR2_t0))))
+          (net co0
+            (joined
+              (portRef BCI (instanceRef addsub_1))
+              (portRef BCO (instanceRef addsub_0))))
+          (net co1
+            (joined
+              (portRef BCI (instanceRef addsub_2))
+              (portRef BCO (instanceRef addsub_1))))
+          (net co2
+            (joined
+              (portRef BCI (instanceRef addsub_3))
+              (portRef BCO (instanceRef addsub_2))))
+          (net co3
+            (joined
+              (portRef BCI (instanceRef addsub_4))
+              (portRef BCO (instanceRef addsub_3))))
+          (net add_sub_inv
+            (joined
+              (portRef B1 (instanceRef addsub_4))
+              (portRef Z (instanceRef INV_0))))
+          (net co4d
+            (joined
+              (portRef S0 (instanceRef addsubd))))
+          (net co4
+            (joined
+              (portRef CI (instanceRef addsubd))
+              (portRef BCO (instanceRef addsub_4))))
+          (net scuba_vlo
+            (joined
+              (portRef Z (instanceRef scuba_vlo_inst))
+              (portRef BCI (instanceRef addsub_0))
+              (portRef A1 (instanceRef addsub_4))
+              (portRef B0 (instanceRef addsubd))
+              (portRef B1 (instanceRef addsubd))
+              (portRef A0 (instanceRef addsubd))
+              (portRef A1 (instanceRef addsubd))))
+          (net co
+            (joined
+              (portRef Cout)
+              (portRef S1 (instanceRef addsub_4))))
+          (net sum7
+            (joined
+              (portRef (member Result 0))
+              (portRef S0 (instanceRef addsub_4))))
+          (net sum6
+            (joined
+              (portRef (member Result 1))
+              (portRef S1 (instanceRef addsub_3))))
+          (net sum5
+            (joined
+              (portRef (member Result 2))
+              (portRef S0 (instanceRef addsub_3))))
+          (net sum4
+            (joined
+              (portRef (member Result 3))
+              (portRef S1 (instanceRef addsub_2))))
+          (net sum3
+            (joined
+              (portRef (member Result 4))
+              (portRef S0 (instanceRef addsub_2))))
+          (net sum2
+            (joined
+              (portRef (member Result 5))
+              (portRef S1 (instanceRef addsub_1))))
+          (net sum1
+            (joined
+              (portRef (member Result 6))
+              (portRef S0 (instanceRef addsub_1))))
+          (net sum0
+            (joined
+              (portRef (member Result 7))
+              (portRef S1 (instanceRef addsub_0))))
+          (net add_sub
+            (joined
+              (portRef Add_Sub)
+              (portRef B (instanceRef XNOR2_t0))
+              (portRef A (instanceRef INV_0))
+              (portRef CON (instanceRef addsub_0))
+              (portRef CON (instanceRef addsub_1))
+              (portRef CON (instanceRef addsub_2))
+              (portRef CON (instanceRef addsub_3))
+              (portRef CON (instanceRef addsub_4))))
+          (net ci
+            (joined
+              (portRef Cin)
+              (portRef A (instanceRef XNOR2_t0))
+              (portRef A0 (instanceRef addsub_0))))
+          (net b7
+            (joined
+              (portRef (member DataB 0))
+              (portRef B0 (instanceRef addsub_4))))
+          (net b6
+            (joined
+              (portRef (member DataB 1))
+              (portRef B1 (instanceRef addsub_3))))
+          (net b5
+            (joined
+              (portRef (member DataB 2))
+              (portRef B0 (instanceRef addsub_3))))
+          (net b4
+            (joined
+              (portRef (member DataB 3))
+              (portRef B1 (instanceRef addsub_2))))
+          (net b3
+            (joined
+              (portRef (member DataB 4))
+              (portRef B0 (instanceRef addsub_2))))
+          (net b2
+            (joined
+              (portRef (member DataB 5))
+              (portRef B1 (instanceRef addsub_1))))
+          (net b1
+            (joined
+              (portRef (member DataB 6))
+              (portRef B0 (instanceRef addsub_1))))
+          (net b0
+            (joined
+              (portRef (member DataB 7))
+              (portRef B1 (instanceRef addsub_0))))
+          (net a7
+            (joined
+              (portRef (member DataA 0))
+              (portRef A0 (instanceRef addsub_4))))
+          (net a6
+            (joined
+              (portRef (member DataA 1))
+              (portRef A1 (instanceRef addsub_3))))
+          (net a5
+            (joined
+              (portRef (member DataA 2))
+              (portRef A0 (instanceRef addsub_3))))
+          (net a4
+            (joined
+              (portRef (member DataA 3))
+              (portRef A1 (instanceRef addsub_2))))
+          (net a3
+            (joined
+              (portRef (member DataA 4))
+              (portRef A0 (instanceRef addsub_2))))
+          (net a2
+            (joined
+              (portRef (member DataA 5))
+              (portRef A1 (instanceRef addsub_1))))
+          (net a1
+            (joined
+              (portRef (member DataA 6))
+              (portRef A0 (instanceRef addsub_1))))
+          (net a0
+            (joined
+              (portRef (member DataA 7))
+              (portRef A1 (instanceRef addsub_0))))))))
+  (design pmi_addsubMo88p635b79e
+    (cellRef pmi_addsubMo88p635b79e
+      (libraryRef ORCLIB)))
+)

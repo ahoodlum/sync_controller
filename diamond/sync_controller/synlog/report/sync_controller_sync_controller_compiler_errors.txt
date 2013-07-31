@@ -1,0 +1,4 @@
+@E: CD169 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":71:73:71:73|Illegal declaration
+@E|Parse errors encountered - exiting
+@E::VHDL compiler failed
+

@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Report for cell one_shot_counter.behavioral
+Register bits:  36 of 6864 (0.524%)
+I/O cells:      35
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        40          100.0
+                             FD1S1A         2          100.0
+                            FD1S3AX         2          100.0
+                            FD1S3IX        31          100.0
+                                GSR         1          100.0
+                                 IB        34          100.0
+                                INV         1          100.0
+                               LUT4         3          100.0
+                                 OB         1          100.0
+                           OFS1P3DX         1          100.0
+                              TOTAL       116

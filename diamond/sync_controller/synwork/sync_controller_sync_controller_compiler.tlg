@@ -1,0 +1,16 @@
+@N: CD630 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":6:7:6:32|Synthesizing work.sync_controller_wb_wrapper.behavioral 
+@N: CD364 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":85:5:85:5|Removed redundant assignment
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":58:8:58:15|Signal ff_clr_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":60:7:60:13|Signal reg_0_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":61:7:61:13|Signal reg_1_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":62:7:62:13|Signal reg_2_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":63:7:63:13|Signal reg_3_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":64:7:64:13|Signal reg_4_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":65:7:65:13|Signal reg_5_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":66:7:66:13|Signal reg_6_i is undriven 
+@W: CD638 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\sync_controller_wb_wrapper.vhd":67:7:67:13|Signal reg_7_i is undriven 
+@N: CD630 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\triggered_counter.vhd":7:7:7:9|Synthesizing work.sio.sio_arch 
+@W: CG296 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\triggered_counter.vhd":34:0:34:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\lscc\diamond\2.0\examples\..\..\..\..\Users\AndrewPC1\Documents\Work\fpga\sync_controller\triggered_counter.vhd":36:6:36:10|Referenced variable reset is not in sensitivity list
+Post processing for work.sio.sio_arch
+Post processing for work.sync_controller_wb_wrapper.behavioral

@@ -1,0 +1,37 @@
+This example exercises Wishbone UART's transmit/receive
+functionality by directly accessing the UART drivers(in
+lieu of stdin/stdout).
+
+PREREQUISITES:
+--------------
+1. LatticeMico8 connected to a UART.  This example assumes
+   the UART instance is named "uart".  If it is not true,
+   it must be changed to reflect the instance-name by
+   changing the uart_core_uart to uart_core_<instance_name> 
+   in LM8_Uart_Test source file.
+2. GPIO with 4-bit output named "LED" connected to the         
+   board's LED pins.  
+   (LM8 Platform A)
+   
+USAGE:
+------
+To use this demo, connect a serial cable between the demo
+board and a PC.  Start hyperterminal on the PC and select
+the appropriate serial port (typically COM<n> where <n> is
+a numeric value (e.g. COM1, COM6 etc).
+
+Configure the serial port connection to 115200 bits/second
+with 8-data bits, no parity and no flow control.
+
+The following message will be shown in the hyperterminal:
+
+-- MAIN MENU --
+0 - Terminate Session
+1 - Uart Echo Test
+2 - Toggle LEDs
+>
+
+Type 0, 1 or 2 on hyperterminal; LatticeMico8 will terminate, or 
+do uart echo test or toggle LEDs.
+
+

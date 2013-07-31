@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\lscc\diamond\2.0\examples\sync_controller\synlog\sync_controller_fpga_mapper.srr</data>
+<title>##### START OF TIMING REPORT #####[</title>
+</report_link>
+<row>
+<data>Clock Name</data>
+<data>Req Freq</data>
+<data>Est Freq</data>
+<data>Slack</data>
+</row>
+<row>
+<data>sync_controller_wb_wrapper|CLK_I</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>sync_controller_wb_wrapper|clk_counter</data>
+<data>186.7 MHz</data>
+<data>158.7 MHz</data>
+<data>-0.945</data>
+</row>
+<row>
+<data>sync_controller_wb_wrapper|sync_in</data>
+<data>353.6 MHz</data>
+<data>300.6 MHz</data>
+<data>-0.499</data>
+</row>
+<row>
+<data>System</data>
+<data>1.0 MHz</data>
+<data>1.0 MHz</data>
+<data>-0.499</data>
+</row>
+</report_table>

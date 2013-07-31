@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "sync_controller_sync_controller.log"
+-o "sync_controller_sync_controller.csv"
+-pr "sync_controller_sync_controller.prf"

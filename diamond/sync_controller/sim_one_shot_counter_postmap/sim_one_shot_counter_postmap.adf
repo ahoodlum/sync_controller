@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+sim_one_shot_counter_postmap=.\sim_one_shot_counter_postmap\sim_one_shot_counter_postmap.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work;
+LibNames=ovi_machxo2;
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+sim_one_shot_counter_postmap=.
+work=.
+[LocalVerilogDirs]
+Count=3
+IncludeDir0=..\
+IncludeDir1=..\soc
+IncludeDir2=..\..\sw\uart_test
+[DefineMacro]
+Global=
+[Files]
+/..\..\sync_controller_sync_controller_mapvho.vho=-1
+/..\..\..\..\..\..\..\my_designs\sync_controller\sync_controller_rtl\src\TestBench\one_shot_counter_TB.vhd=-1
+/..\..\sync_controller_sync_controller_mapvho.sdf=-1
+[Files.Data]
+.\..\sync_controller_sync_controller_mapvho.vho=VHDL Source Code
+.\..\..\..\..\..\..\my_designs\sync_controller\sync_controller_rtl\src\TestBench\one_shot_counter_TB.vhd=VHDL Source Code
+.\..\sync_controller_sync_controller_mapvho.sdf=SDF File
+[sdf.ea.one_shot_counter_tb-TB_ARCHITECTURE]
+0=..\sync_controller_sync_controller_mapvho.sdf| /one_shot_counter_tb/UUT, Average, No
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=one_shot_counter_tb|testbench_for_one_shot_counter|1 
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,21 @@
+	Link Summary for source view work.pmi_ram_dq_Z5_layer1.verilog of instance genblk1\.genblk2\.u1_isp8_prom :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.pmi_ram_dq_Z6_layer1.verilog of instance genblk4\.u1_scratchpad :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.pmi_distributed_dpram_32s_5s_8s_noreg_none_binary_MachXO2_pmi_distributed_dpram_3_layer1.verilog of instance genblk7\.u1_lm8_rfmem :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.pmi_distributed_dpram_32s_5s_8s_noreg_none_binary_MachXO2_pmi_distributed_dpram_3_layer1.verilog of instance genblk7\.u2_lm8_rfmem :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.pmi_addsub_8s_8s_off_MachXO2_pmi_addsub.verilog of instance u1_addsub8 :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.pmi_distributed_spram_16s_4s_13s_noreg_none_binary_MachXO2_pmi_distributed_spram_1_layer1.verilog of instance u1_lm8_stkmem :
+	============================
+		No Target View Link Candidates for this view
+	Link Summary for source view work.BB.verilog of instance tpio_inst :
+	============================
+		No Target View Link Candidates for this view
